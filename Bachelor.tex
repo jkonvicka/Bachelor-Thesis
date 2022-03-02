@@ -11,7 +11,7 @@
 
 \usepackage{color}
 \usepackage{listings}
-
+\usepackage{placeins} 
 \lstdefinelanguage{Dockerfile}
 {
   morekeywords={FROM, RUN, CMD, LABEL, MAINTAINER, EXPOSE, ENV, ADD, COPY,
@@ -67,7 +67,10 @@
       {]}{{{\color{delim}{]}}}}{1},
 }
 %====================json====================================
-
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcolumntype{C}[1]{>{\centering}m{#1}}
+  
 % Zadame pozadovane vstupy pro generovani titulnich stran.
 \ThesisAuthor{Jakub Konvička}
 
@@ -92,11 +95,18 @@
 
 \EnglishKeywords{typography; \LaTeX; master thesis}
 
-\AddAcronym{DVD}{Digital Versatile Disc}
-\AddAcronym{TNT}{Trinitrotoluen}
-\AddAcronym{UML}{Unified Modeling Language}
-\AddAcronym{HTML}{Hyper Text Markup Language}
-\AddAcronym{TUG}{\TeX{} Users Group}
+\AddAcronym{HPC}{High-performance computing / High-performance cluster}
+\AddAcronym{HEAppE}{High-End Application Execution (Middleware)}
+\AddAcronym{Flop/s}{Floating-point Operations Per Second}
+\AddAcronym{API}{Application Programming Interface}
+\AddAcronym{REST API}{Representational State Transfer Application Programming Interface}
+\AddAcronym{HaaS}{HPC-as-a-Service}
+\AddAcronym{SSH}{Secure Shell}
+\AddAcronym{RSA}{Rivest–Shamir–Adleman cryptosystem}
+\AddAcronym{HTTP}{Hypertext Transfer Protocol}
+\AddAcronym{DOS/DDOS}{(Distributed) Denial of Service}
+\AddAcronym{JSON}{JavaScript Object Notation}
+\AddAcronym{DTO}{Data Transfer Object}
 
 \addbibresource{bibliografie.bib}
 

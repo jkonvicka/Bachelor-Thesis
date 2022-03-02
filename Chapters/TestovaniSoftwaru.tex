@@ -96,15 +96,12 @@ Důležitým krokem při užívaní HEAppE Middleware je provedení autentizace.
 
 Hlavním úkolem tohoto testovacího plánu bude otestování spouštění úloh na dvou výpočetních clusterech. Na každý cluster bude podána žádost o spuštění tří konfigurací úloh (jednoduchá, s generickým command templatem a extra dlouhá úloha).
 
-Před spouštěním úloh budou otestovány funkcionality související s uživatelem HEAppE. Tyto kroky se nachází v následující tabulce.
+\newpage
+Před spouštěním úloh budou otestovány funkcionality související s uživatelem HEAppE. Tyto kroky se nachází v následující tabulce \ref{tab:user-testing}.
 
-\newcommand{\specialcell}[2][c]{%
-  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
-
-\begin{table}
+\begin{table}[!h]
 	\centering
-	\label{tab:TopLevelTableLabel}
-		\begin{tabular}{|c|c|c|}
+		\begin{tabular}{|C{0.8cm}|c|c|}
 		    \hline
 		    Krok & Název & Endpoint \\
 		    \hline
@@ -123,35 +120,56 @@ Před spouštěním úloh budou otestovány funkcionality související s uživa
             \hline
 		\end{tabular}
 	\caption{Seznam kroků pro testování funkcionalit související s uživatelem HEAppE}
+	\label{tab:user-testing}
 \end{table}
 
-**TABULKA
+Dále bude otestováno spouštění třech různých úloh na dvou různých superpočítačových clusterech. Kroky určené k otestování jedné úlohy popisují kroky uvedené v tabulce \ref{tab:task-testing}.
 
-Krok	Název	Endpoint
-1	Vytvoření úlohy	/heappe/JobManagement/CreateJob
-2	Spustit zpracování úlohy	/heappe/JobManagement/SubmitJob
-3	Získání spotřebovaných zdrojů úlohy	/heappe/JobReporting/GetResourceUsageReportForJob
-4	Získání využití zdrojů na výpočetních clusterech	/heappe/ClusterInformation/CurrentClusterNodeUsage
-5	Získání stavu úlohy	/heappe/JobManagement/GetCurrentInfoForJob
-6	Vyčkání na spuštění úlohy	/heappe/JobManagement/GetCurrentInfoForJob
-7	Získání IP adres alokovaných uzlů	/heappe/JobManagement/GetAllocatedNodesIPs
-8	Zrušení úlohy	/heappe/JobManagement/CancelJob
-9	Vyčkání na ukončení úlohy	/heappe/JobManagement/GetCurrentInfoForJob
-10	Smazání úlohy	/heappe/JobManagement/DeleteJob
-
-
-
-Dále bude otestováno spouštění třech různých úloh na dvou různých superpočítačových clusterech. Kroky určené k otestování jedné úlohy popisují kroky uvedené v následující tabulce.
-
+\begin{table}[!h]
+	\centering
+		\begin{tabular}{|C{0.8cm}|C{6.9cm}|c|}
+		    \hline
+		    Krok & Název & Endpoint \\
+		    \hline
+			1 & Vytvoření úlohy & \specialcell{/heappe/JobManagement/CreateJob}\\
+			\hline
+			2 & Spustit zpracování úlohy & \specialcell{/heappe/JobManagement/SubmitJob}\\
+            \hline
+			3 & \specialcell{Získání spotřebovaných zdrojů úlohy} & \specialcell{/heappe/JobReporting/\\GetResourceUsageReportForJob}\\
+            \hline
+            4 & \specialcell{Získání využití zdrojů na výpočetních \\clusterech} & 	\specialcell{/heappe/ClusterInformation/\\CurrentClusterNodeUsage}\\
+            \hline
+            5 & \specialcell{Získání stavu úlohy} & \specialcell{/heappe/JobManagement/GetCurrentInfoForJob}\\
+            \hline
+            6 & \specialcell{Vyčkání na spuštění úlohy} & \specialcell{/heappe/JobManagement/GetCurrentInfoForJob}\\
+            \hline
+            7 & \specialcell{Získání IP adres alokovaných uzlů} & \specialcell{/heappe/JobManagement/GetAllocatedNodesIPs}\\
+            \hline
+            8 & \specialcell{Zrušení úlohy} & \specialcell{/heappe/JobManagement/CancelJob}\\
+            \hline
+            9 & \specialcell{Vyčkání na ukončení úlohy} & \specialcell{/heappe/JobManagement/GetCurrentInfoForJob}\\
+            \hline
+            10 & \specialcell{Smazání úlohy} & \specialcell{/heappe/JobManagement/DeleteJob}\\
+            \hline
+		\end{tabular}
+	\caption{Seznam kroků pro testování úloh HEAppE}
+	\label{tab:task-testing}
+\end{table}
+\newpage
 
 Protože je práce s úlohou na výpočetním clusteru řízena plánovačem, prakticky se jedná o předávání pokynů. Proto se v testovacím plánu musí vyskytovat čekání na vykonání příkazu. Při pokynu pro spuštění úlohy tak musíme čekat na to, až naši úlohu spustí plánovač na výpočetním clusteru. V testovacím scénáři je toto čekání implementováno cyklickým doptáváním HEAppE REST API s prodlevou, aby nedošlo k zablokování (toto chování by mohlo nést znaky DOS/DDOS útoku\footnote{DDOS nebo také DOS je typ útoku na internetové služby nebo stránky, jehož cílem je cílovou službu znefunkčnit a znepřístupnit ostatním uživatelům; může k tomu dojít zahlcením obrovským množstvím požadavků, ve variatně DDOS jde o distribuovaný DOS\cite{UUBpn6UTaV8mOipc}}). Následuje ukázka kódu testovacího scénáře Robot Frameworku obsahujícího popsané cyklické doptávání REST API. V tomto případě se cyklus se ukončí, pokud HEAppE vrátí stav, který značí, že je úloha spuštěna. Očekává se, že se stav změní v rámci jednotek či desítek minut, Roboto Framework neumožňuje práci s cykly s neznámým počtem opakování, proto byl při implementaci využit cyklus se známým počtem opakování.
 
 Útržek testovacího scénáře obsahuje funkci WaitForJobRuns, úkolem této metody je počkat na spuštění úlohy plánovačem na výpočetním clusteru.
 
-\newpage
-\lstinputlisting[language=bash, caption={Segment Robot Framework testu}]{SourceCodes/wait-for-job-runs.txt}
+
 
 Výsledkem tohoto testování je vygenerovaný report, programátor má pak lepší představu o funkčnosti jednotlivých částí systému. Tyto reporty Robot Framework připraví v grafické podobě, dostupné jsou ve formátu html. Surová data jsou součástí reportu ve struktuře XML\footnote{Výměnný formát pro přenos dat}.
+
+
+
+\hfill \break
+\lstinputlisting[language=bash, caption={Segment Robot Framework testu}]{SourceCodes/wait-for-job-runs.txt}
+
 
 
 

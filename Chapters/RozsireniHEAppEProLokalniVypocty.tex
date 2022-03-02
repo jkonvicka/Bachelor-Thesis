@@ -17,7 +17,7 @@ Celá koncepce návrhu rozšíření je vyobrazena v následujícím diagramu.
 	\centering
 	\includegraphics[width=1.0\textwidth]{Figures/local-hpc-clsuter-navrh.png}
 	\caption{Návrh rozšíření o lokální HPC cluster}
-	\label{fig:WritingThesis}
+	\label{fig:navrh-rozsireni-o-lokalni-hpc-clsuter}
 \end{figure}
 
 Lokální HPC Cluster je z technického hlediska spouštěná instance virtuálního stroje s OS Linux. K nasimulování chování plánovače, který je součástí superpočítače, bude v tomto případě využito několik skriptů, které se budou spouštěny na žádost HEAppE. HEAppE Middleware bude upraven minimálně, úpravy nebudou zasahovat do logiky užívání při spojení s plánovači na superpočítačích, a to i z důvodu možnosti zanesení chyby do stávajícího řešení. V systému HEAppE je několik vrstev, kterými se prochází od požadavku uživatele nad API, největší úpravy budou v poslední vrstvě – HpcConnectionFramework, kde bude přidán konektor (SchedulerAdapter) pro práci s lokálním virtuálním strojem simulující chování plánovače na superpočítači.
