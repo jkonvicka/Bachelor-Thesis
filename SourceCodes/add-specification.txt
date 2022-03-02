@@ -1,0 +1,41 @@
+Cluster
+{
+    "Id":3,
+    "Name":"Local",
+    "Description":"Local computing machine",
+    "MasterNodeName":"host.docker.internal",
+    "Port":49005,
+    "LocalBasepath":"/home/username-is-stored-in-LocalLinuxHPCcluster-readme/heappetests",
+    "TimeZone":"CET",
+    "SchedulerType":16,
+    "ConnectionProtocol":2,
+    "ServiceAccountCredentialsId":11
+}
+...
+
+ClusterAuthenticationCredentials
+{
+    "Id":11,
+    "Username":"username-is-stored-in-LocalLinuxHPCcluster-readme",
+    "Password":"password-is-stored-in-LocalLinuxHPCcluster-readme",
+    "PrivateKeyFile":"/opt/heappe/keys/id_rsa_01",
+    "PrivateKeyPassword":"key-is-stored-in-LocalLinuxHPCcluster-readme",
+    "ClusterId":3
+ }
+...
+
+ClusterNodeType
+{
+     "Id":14,
+     "Name":"ExpressLocal",
+     "Description":"Testing nodes Local",
+     "NumberOfNodes":32,
+     "CoresPerNode":128,
+     "Queue":"qexp",
+     "RequestedNodeGroups":null,
+     "MaxWalltime":3600,
+     "ClusterId":3,
+     "FileTransferMethodId":3,
+     "JobTemplateId":3,
+     "TaskTemplateId":3
+}

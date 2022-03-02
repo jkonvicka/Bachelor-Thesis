@@ -1,0 +1,2 @@
+Base64: VGVzdG92YWPDrSB0ZXh0IHBybyBlbmvDs2RvdsOhbsOtLiAoPC8+JSQjXiZAKQ==
+UTF-8:  Testovací text pro enkódování. (</>%$#^&@)

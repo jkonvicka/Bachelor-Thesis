@@ -1,0 +1,67 @@
+\chapter{Uživatelsky definované šablony výpočtů}
+Dalším cílem této práce je navrhnou a implementovat řešení, které uživateli umožní jednoduchou správu šablon výpočtů (vytváření, modifikace a mazání). Taková šablona (v HEAppE nazvaná jako Command Template) obsahuje cestu k programu na clusteru a požadované parametry daného programu. Uživateli bude zpřístupněn nový endpoint na REST API, pomocí které bude možné novou šablonu vytvořit.
+
+V současné chvíli HEAppE poskytuje funkcionalitu pro vytvoření tzv. generického command template, prakticky se jedná o dynamicky se vytvářející šablonu za běhu. Generická šablona bude použita pro vývoj tohoto řešení.
+
+\section{Generická šablona}
+Generic command template je, jak už bylo popsáno výše, funkcionalita v HEAppE Middleware, která uživateli umožňuje za běhu dynamicky upravit šablonu výpočtů. Při vytváření úlohy se využije místo klasického Command Template tato generická šablona. Tato šablona se využívá primárně při testování, pro pravidelné použití se spíš hodí přesně definovaná šablona, která je uložena v databázi HEAppE. 
+
+Generická šablona obsahuje parametry, ve kterých uživatel specifikuje cestu ke skriptu, který chce spustit a ve speciálním tvaru zadá také parametry. Na clusteru se nachází skript, jehož úkolem je spustit zadaný skript s argumenty zadané uživatelem.
+
+Před samotným spuštěním se však provádí validace zadaných parametrů a existence skriptu na clusteru. Skript, který je spouštěn prostřednictvím generické šablony výpočtů musí obsahovat hlavičku s argumenty skriptu. Tato hlavička je v HEAppE přečtena a následně jsou názvy předaných argumentů či parametrů porovnány se zadanými parametry uživatelem.
+
+\newpage
+\begin{lstlisting}[language=bash,caption={Ukázková hlavička skriptu s „generickými" parametry iterations a message}]
+#!/bin/bash
+#HEAPPE_PARAM iterations
+#HEAPPE_PARAM message
+\end{lstlisting}
+
+Po validaci je na clusteru spuštěn řídící skript, který namapuje zadané parametry na proměnné, které je následně možné v programu využít.
+
+\section{Návrh řešení}
+Aby si uživatel mohl před přesnou specifikací nově vytvářené šablony výpočtů šablonu vyzkoušet, bude uživatelské vytváření nových šablon výpočtů navázáno na generickou šablonu výpočtů. Při vytváření nové šablony uživatel uvede stejné údaje, jako při používání generické šablony ve specifikaci úlohy.
+
+Během vytváření šablony výpočtů bude zkontrolován uživatelem zadaný skript (hlavička s parametry) pro požadované názvy parametrů. Pokud bude vše souhlasit, šablona výpočtů se vytvoří.
+
+Další funcionalitou bude modifikace již existující šablony výpočtů, editovat bude možné atributy, které jsou ke specifikaci tzv. Commmand Template využívány. Pokud uživatel změní cestu k cílovému skriptu, který se spouští na clusteru, tak dojde i ke změně dostupných parametrů skriptu. Tyto parametry musí být uvedeny v hlavičce cílového skriptu. V čase změny musí být již tento skript dostupný na superpočítačovém clusteru.
+
+Součástí správy šablon výpočtů je i mazání existujících Command Templatů. Před pokusem o smazání šablony z databáze bude zkontrolována existence dané šablony dle zadaného identifikátoru uživatelem.
+
+Funkcionalita bude dostupná jako endpoint na REST API HEAppE Middleware. Bude vytvořen nový Management controller v kódu HEAppE. Pro využívání těchto fukcionalit bude oprávněn pouze uživatel s rolí Administrátora.
+
+\section{Implementace}
+Do REST API byl přidán nový controller a trojice endpointů s názvem CreateCommandTemplate, EditCommandTemplate a RemoveCommandTemplate, pro mapování dat zadaných uživatelem byly vytvořeny třída popisující data. 
+
+Po obdržení žádosti na tomto endpoint CreateCommandTemplate proběhne validace, zda zadaná generická šablona existuje a zda-li odkazovaný skript obsahuje v hlavičce názvů parametrů, přesněji se jedná o přečtení hlavičky skriptu. Hlavička má z definice jednoznačný formát, proto se při parsování názvů parametrů z textu využívá regulárního výrazu.
+
+
+\begin{lstlisting}[language=bash, caption={Regurální výraz pro parsování názvů parametrů}]
+                                #HEAPPE_PARAM ([A-z0-9]+)\n
+\end{lstlisting}
+
+Po úspěšné kontrole je vytvořen objekt CommandTemplate s vazbou na skript a parametry. Následně je šablona uložena do databáze a připravena k použití.
+
+Vytváření šablon je složitější operace, předpokládá se, že vytváření a testování jednotlivých šablon bude provádět poučená osoba pro práci s HEAppE pro další uživatele, kteří se starají primárně o vytváření a spouštění úloh. Proto je funkcionalita dostupná pouze pro uživatelé s rolí Administrátora.
+
+Analogicky dle návrhu řešení fungují i endpointy EditCommandTemplate a RemoveCommandTemplate.
+
+\section{Prerekvizity pro správné fungování}
+Předpokladem pro vytváření nových šablon výpočtů je existence generické šablony v systému HEAppE. Dále musí uživatel vytvořit skript, který bude chtít spouštět společně s hlavičkou obsahující parametry ve výše uvedeném formátu. Při vytváření uživatel také může uvést další argumenty pro tvorbu šablony výpočtů.
+
+
+
+\begin{lstlisting}[caption={JSON struktura pro endpoint CreateCommandTemplate}]
+{
+  "SessionCode": "string",
+  "GenericCommandTemplateId": 0,
+  "Name": "string",
+  "Description": "string",
+  "Code": "string",
+  "ExecutableFile": "string",
+  "PreparationScript": "string"
+} 
+\end{lstlisting}
+
+
+
