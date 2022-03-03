@@ -49,7 +49,7 @@ Obdobně je přistupováno k datům i v případě simulace HPC na lokálním vi
 Pro práci s JSON strukturami slouží ve virtuálním stroji parser\footnote{Parser je program či jeho část provádějící syntaktickou analýzu textu. Analýza textu je proces, při němž je zpracováván text za pomoci definovaných pravidel daného jazyka.\cite{uEN4MdNhBpkZmkHF}} jq\cite{qibOqajDMnKYNjXq}. Jedná se o program, který je schopen z JSON struktury získat data nebo je naopak aktualizovat či přidat a odebrat. Tento program je instalován při startování Docker kontejneru, žádost o instalaci se nachází v konfiguraci dockerfile.
 
 \hfill \break
-\begin{lstlisting}[caption={Příklad json struktury}]
+\begin{lstlisting}[caption={Příklad JSON struktury}]
 {
    "SessionCode": "string",
    "CreatedJobInfoId": 0
@@ -77,7 +77,7 @@ Parametry jednotlivých skriptů, které jsou zasílány z HEAppE jsou enkódov�
 
 
 \hfill \break
-\lstinputlisting[language={},identifierstyle=\color{black},caption={Příklad base64 kódování}]{SourceCodes/base64-enc.txt}
+\lstinputlisting[language={},identifierstyle=\color{black},caption={Příklad Base64 kódování}]{SourceCodes/base64-enc.txt}
 
 Řídící skripty, které mají za úkol nasimulovat chování plánovače na superpočítač jsou tři. Jedná o skript, který spouští samotnou úlohu, získává aktuální stav úlohy nebo získává počet úloh na simulovaném clusteru. Všechny tyto podpůrné skripty pracují jen se soubory a adresáři, aby nedocházelo ke zbytečné zátěži (není použit DB server apod.). 
 
@@ -127,7 +127,7 @@ V případě, že chce uživatel využívat HEAppE s tímto rozšířením pro s
 	    \item Protože se bude jednat o kumunikaci mezi Docker kontainery, musí být atribut MasterNodeName, který se využívá jako Host při nastavování spojení na cluster, nastaven na hodnotu "host.docker.internal" – není možné využít adresu localhost ani 127.0.0.1
 	    \item Musí být nastaveny údaje pro autentizaci (username, password, private key, key file)
 	    \item Musí být vytvořen nový uzel s frontou, kterou uživatel bude využívat na virtuálním HPC
-	    \item Atribut SchedulerType musí být nastaven na hodnotu 16, interně je v logice HEAppE tento typ plánovače využit při volbě adaptéru ve vrstvě HpcConnectionFramework
+	    \item Atribut SchedulerType musí být nastaven na hodnotu 1, interně je v logice HEAppE tento typ plánovače využit při volbě adaptéru ve vrstvě HpcConnectionFramework
 	\end{enumerate}
 \end{enumerate}
 

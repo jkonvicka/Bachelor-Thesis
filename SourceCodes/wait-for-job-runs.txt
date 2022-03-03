@@ -10,7 +10,7 @@ WaitForJobRuns
 		   Set Global Variable		${Response}		${Response}
 		   Check Response Code 200
 		   Log    ${response}
-		   Exit For Loop If    ${response['body']['State']} == 8
+		   Exit For Loop If    ${response['body']['State']} >= 8
 		   Sleep    10s
            
     END

@@ -7,7 +7,7 @@ Cluster
     "Port":49005,
     "LocalBasepath":"/home/username-is-stored-in-LocalLinuxHPCcluster-readme/heappetests",
     "TimeZone":"CET",
-    "SchedulerType":16,
+    "SchedulerType":1,
     "ConnectionProtocol":2,
     "ServiceAccountCredentialsId":11
 }
