@@ -4,97 +4,95 @@ Cílem testování softwaru je zjištění kvality daného software, zda splňuj
 \section{Historie testování}
 První chyba či selhání celého počítače bylo zaznamenáno v padesátých letech 20. století na Harvardově univerzitě. Chyba však nestála na straně software, příčinou byla zaklíněná můra v součástkách tehdejšího sálového počítače s označením Mark II, ten vypověděl službu. Z tohoto prostého důvodu se dnes při řeči o chybách v programu využívá označení „moucha“ či „bug“. Prvotně toto označení použil Thomas Edison v jeho publikacích z 19. století, nyní však šlo o první počítačovou chybu. 
 
-Chyba v programu vede k selhání softwaru. Záznam o této chybě vzniknul v roce 1945, podařilo se dochovat i onu můru, tedy strůjce celého problému.\cite{85SxcMZY6LKfV8v4}
+Chyba v programu vede k selhání softwaru. Záznam o této chybě vzniknul v roce 1945, podařilo se dochovat i onu můru, tedy strůjce celého problému \cite{85SxcMZY6LKfV8v4}. Kopie tohoto záznamu se nachází na obrázku \ref{fig:zaznam-o-prvni-chybe}.
 
 
-\begin{figure}
+\begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.4\textwidth]{Figures/first-pc-bug.jpg}
+	\includegraphics[width=0.38\textwidth]{Figures/first-pc-bug.jpg}
 	\caption{Záznam o první počítačové chybě \cite{85SxcMZY6LKfV8v4}}
-	\label{fig:WritingThesis}
+	\label{fig:zaznam-o-prvni-chybe}
 \end{figure}
 
 \section{Proces vývoje softwaru}
-Mezi základní modely popisující proces vývoje softwaru patří model velkého třesku, model „programuj a opravuj“, vodopádový model nebo spirálový model. Mezi stěžení body propracovanějších modelů se řadí specifikace, vývoj a testování.
+Mezi základní modely popisující proces vývoje softwaru patří model velkého třesku, model „programuj a opravuj“, vodopádový model nebo spirálový model. Mezi stěžejní body propracovanějších modelů se řadí specifikace, vývoj a testování. Každý tým vyvíjející software si může tento proces definovat tak, aby byl efektivní a splňoval očekávané podmínky zadavatele. Metodika či proces vývoje software obvykle kombinuje hned několika principů z výše vyjmenovaných modelů. Především se však proces ubírá směrem iteračního vývoje software. Vývoj software v iteracích či cyklech vychází z praktických zkušeností především z důvodu přicházejících změn či doplňování specifikací už při vývoji software.
+
+Velmi důležitým krokem celého procesu vývoje software je testování. Testování slouží především k odhalování chyb, které mohly být při vývoji zaneseny do kódu a na první pohled nemusí být jasné, že se v kódu tyto chyby nacházejí. Proto je hned několik principů, jak software testovat. Metodiky testování se liší u různých projektů a z praxe je zřejmé že i přes sebelepší postup při testování software je možné, že se chyba objeví až při užívání aplikace zákazníkem (obecně uživatelem). Cílem testování je minimalizace možnosti objevení chyb až ve fázi, kdy aplikaci využívá koncový uživatel. Některé testy či testové sady je možné automatizovat a zefektivnit tak fázi testování.
 
 \subsection{Model velkého třesku}
-Metoda vývoje, při kterém se využívá modelu velkého třesku stojí na jednoduchosti celého konceptu. Veškeré úsilí je soustředěno na vývoj softwaru – konečného produktu. Model počítá s velmi nízkou úrovní specifikace produktu. Součástí tohoto modelu není fáze formálního tetování.\cite{Patton2002}
+Metoda vývoje, při kterém se využívá modelu velkého třesku stojí na jednoduchosti celého konceptu. Veškeré úsilí je soustředěno na vývoj softwaru – konečného produktu. Model počítá s velmi nízkou úrovní specifikace výsledného software. Součástí tohoto modelu není fáze formálního tetování \cite{Patton2002}. Model je vyobrazen na obrázku \ref{fig:big-bang-model}.
 
 
-\begin{figure}[h]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Figures/velky-tresk.png}
 	\caption{Model velkého třesku}
-	\label{fig:WritingThesis}
+	\label{fig:big-bang-model}
 \end{figure}
 
 \subsection{Model „programuj a opravuj“}
-Tento model nevyžaduje příliš mnoho režie či řízení. Je určen pro malé projekty vyžadující prezentování výsledků v rychlém sledu. Začíná se hrubou představou o finálním produktu, pokračuje cykly vývoje, testování a opravou chyb. Po několika iteracích těchto cyklů je rozhodnuto o ukončení práce a vydání softwaru. Model „programuj a opravuj“ se v praxi využívá u prototypů.\cite{Patton2002}
+Tento model nevyžaduje příliš mnoho režie či řízení. Je určen pro malé projekty vyžadující prezentaci výsledků v rychlém sledu. Začíná se hrubou představou o finálním software, pokračuje cykly vývoje, testování a opravou chyb. Po několika iteracích těchto cyklů je rozhodnuto o ukončení práce a vydání softwaru. Model „programuj a opravuj“ se v praxi využívá např. u prototypů \cite{Patton2002}. Model je vyobrazen na obrázku \ref{fig:program-and-repair-model}.
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Figures/programuj-a-opravuj.png}
 	\caption{Model „programuj a opravuj“}
-	\label{fig:WritingThesis}
+	\label{fig:program-and-repair-model}
 \end{figure}
 
 \subsection{Vodopádový model}
-Vodopádový model spočívá v kontinuálním vývoji s přesně danou specifikací. Jednotlivé kroky tohoto modelu jsou atomické, nepřekrývají se a „není cesty zpět“. V jednotlivých krocích není možné postupovat zpětně, musí se dokončit daná iterace a začít specifikací znova.\cite{Patton2002}
+Vodopádový model spočívá v kontinuálním vývoji s přesně danou specifikací. Jednotlivé kroky tohoto modelu jsou atomické, nepřekrývají se a „není cesty zpět“. V jednotlivých krocích není možné postupovat zpětně, musí se dokončit daná iterace a začít specifikací znova \cite{Patton2002}. Model je vyobrazen na obrázku \ref{fig:waterfall-model}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Figures/vodopad-model.png}
 	\caption{Vodopádový model}
-	\label{fig:WritingThesis}
+	\label{fig:waterfall-model}
 \end{figure}
 
 \subsection{Spirálový model}
-Spirálový model řeší nedostatky výše uvedených modelů. Vývoj softwaru, který se řídí postupem daným spirálovým modelem je efektivní. Nevýhodou může být podstatně větší režie, než tomu bylo u modelů jako je model velkého třesku či model vodopádový. Jednotlivé kroky ve spirálovém modelu se mohou na rozdíl od vodopádového modelu překrývat.\cite{Patton2002}
+Spirálový model řeší nedostatky výše uvedených modelů. Vývoj softwaru, který se řídí postupem daným spirálovým modelem je efektivní. Nevýhodou může být podstatně větší režie, než tomu bylo u modelů jako je model velkého třesku či model vodopádový. Jednotlivé kroky ve spirálovém modelu se mohou na rozdíl od vodopádového modelu překrývat \cite{Patton2002}.
 
-V modelu jsou patrné 4 skupiny akcí, které je třeba provádět. Jmenovitě se jedná o plánování, analýzu rizik, vývoj a zhodnocení. Vývoj podle tohoto modelu probíhá v iteracích, při každém průchodu cyklem je pomyslně dokončena další část spirály.
+V modelu jsou patrné 4 skupiny akcí, které je třeba provádět. Jmenovitě se jedná o plánování, analýzu rizik, vývoj a zhodnocení. Vývoj podle tohoto modelu probíhá v iteracích, při každém průchodu cyklem je pomyslně dokončena další část spirály. Model je vyobrazen na obrázku \ref{fig:spiral-model}.
 
 
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{Figures/spiral-model.png}
-	\caption{Zjednodušený spirálový model}
-	\label{fig:WritingThesis}
-\end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.6\textwidth]{Figures/Spiral_model_Boehm_1988.png}
 	\caption{Spirálový model \cite{ee27bbyhk5LP1Ekm}}
-	\label{fig:WritingThesis}
+	\label{fig:spiral-model}
 \end{figure}
 
 \section{Manuální a automatizované testování}
-Testování softwaru, je možné rozdělit do dvou základních skupin.  Manuální testování zpravidla provádí člověk. Naopak automatizované testování zajišťuje stroj, který dle zvoleného scénáře většinou generuje požadavky na systém a čeká na odpověď, kterou porovnává s předpokládaným výstupem.
+Testování softwaru, je možné rozdělit do dvou základních skupin. Manuální testování zpravidla provádí člověk. Naopak automatizované testování zajišťuje stroj, který dle zvoleného scénáře většinou generuje požadavky na systém a čeká na odpověď, kterou porovnává s předpokládaným výstupem.
 
-Automatizované testování nám může v krátkém čase přinést mnoho zajímavých výsledků, dává nám náhled na to, na co se v daném systému zaměřit. Stojí však na poměrně náročném vytváření testovacích plánů či schémat. V případě nalezení chyby při automatickém testování se ale obvykle k problému musí dostat v posledním kroku i člověk, jehož úkolem je nalezení chyby v kódu. Využití automatizovaných testů je nesporně výhodné, především z časových důvodů, můžeme stejné scénáře spouštět několikrát za sebou, např. s upravenými vstupy, které si můžeme nechat generovat. Výstupem automatizovaného testování je většinou souhrn či stručný přehled akcí, které se provedly. Tyto akce jsou pak označeny, zda se výstup rovná očekávanému výstupu. Automatizované testování se z praktických důvodů přesné specifikace očekávaného výstupu využívá především k testování rozhraní softwaru. V případě projektu HEAppE Middleware jde o testování rozhraní REST API.
+Automatizované testování nám může v krátkém čase přinést mnoho zajímavých výsledků, dává nám náhled na to, na co se v daném systému zaměřit. Stojí však na poměrně náročném vytváření testových plánů či schémat. V případě nalezení chyby při automatickém testování se ale obvykle k problému musí dostat v posledním kroku i člověk, jehož úkolem je nalezení chyby v kódu. Využití automatizovaných testů je nesporně výhodné, především z časových důvodů, můžeme stejné scénáře spouštět několikrát za sebou, např. s upravenými vstupy, které si můžeme nechat generovat. Výstupem automatizovaného testování je většinou souhrn či stručný přehled akcí, které se provedly. Tyto akce jsou pak označeny, zda se výstup rovná očekávanému výstupu. Automatizované testování se z praktických důvodů přesné specifikace očekávaného výstupu využívá především k testování rozhraní softwaru. V případě projektu HEAppE Middleware jde o testování rozhraní REST API.
 
 \section{Framework pro automatizované testování HEAppE}
-Mezi základní úkoly pro automatizované testování softwaru se řadí výběr frameworku . Pro účely HEAppE Middleware byl vybrán Robot Framework \cite{UDdvJfGpGdOGQs2a}. Jedná se o automatizační open-source framework, který pracuje s vytvořenou provozuschopnou aplikací či API. Tento framework\footnote{Framework je set programů, knihoven a rozhraní, které programátorovi zjednodušují práci. Framework většinou stačí nakonfigurovat a používat.} se využívá na úrovni integračního testování, v praxi jde o tzv. smoke testy \cite{K35ZsSqAfq3Ec1XJ}. Hlavním úkolem smoke testů je rychlé vyhodnocení funkčnosti aplikace, aby bylo možné přejít k dalšímu vývoji. Pomáhají odhalit nefunkční části aplikace či aplikačního rozhraní. Robot Framework je schopný pracovat s grafickým uživatelským rozhraním, ale pracuje i na úrovni REST API.
+Mezi základní úkoly pro automatizované testování softwaru se řadí výběr frameworku\footnote{Framework je set programů, knihoven a rozhraní, které programátorovi zjednodušují práci. Framework většinou stačí nakonfigurovat a používat.}. Pro účely HEAppE Middleware byl vybrán Robot Framework \cite{UDdvJfGpGdOGQs2a}. Jedná se o automatizační Open-Source framework, který pracuje s vytvořenou provozuschopnou aplikací či API. Tento framework se využívá na úrovni integračního testování, v praxi jde o tzv. smoke testy \cite{K35ZsSqAfq3Ec1XJ}. Hlavním úkolem smoke testů je rychlé vyhodnocení funkčnosti aplikace, aby bylo možné přejít k dalšímu vývoji. Pomáhají odhalit nefunkční části aplikace či aplikačního rozhraní. Robot Framework je schopný pracovat s grafickým uživatelským rozhraním, ale pracuje i na úrovni REST API.
 
-Robot Framework je nezávislý na operačním systému, jádro frameworku stojí na programovacím jazyce Python. To umožňuje především snadnou rozšiřitelnost a použitelnost. Základem automatizovaného testování prostřednictvím Robot Frameworku je sestavení testovacích plánů. Jedná se o popis akcí, které má framework vykonat. V případě HEAppE Midleware bude Robot Framework testovat endpointy REST API, pro dané požadavky budou dynamicky vytvářeny JSON specifikace. Základním plánem pro automatizované testování bude autentizace, vytvoření a spuštění úlohy. Tento plán může být dále rozšiřován.
+Robot Framework je nezávislý na operačním systému, jádro frameworku stojí na běhovém prostředí Python Interpreter\footnote{Python Interpreter převádí kód psaný v jazyce Python do jazyka strojových instrukcí, tyto instrukce jsou následně spouštěny a program v jazyce Python je vykonáván.}. To umožňuje především snadnou rozšiřitelnost a použitelnost. Základem automatizovaného testování prostřednictvím Robot Frameworku je sestavení testovacích plánů. Jedná se o popis akcí, které má framework vykonat. V případě HEAppE Midleware bude Robot Framework testovat endpointy REST API, pro dané požadavky budou dynamicky vytvářeny JSON specifikace. Základním plánem pro automatizované testování bude autentizace, vytvoření a spuštění úlohy. Tento plán může být dále rozšiřován.
 
-Velkou výhodou tohoto frameworku je možné napojení na průběžnou integraci ve fázi vývoje. Průběžná integrace (Continuous Integration) slouží k urychlení nalezení chyb, integrace je spouštěna na integračním serveru podle předem zvoleného schématu. Metoda průběžné integrace je využívána i v projektu HEAppE, v průběhu sestavování aplikace je možné provést sadu testů z Robot Frameworku. Vývojáři pak budou mít lepší přehled o funkčnosti systému v dané fázi vývoje. Průběžná integrace je spouštěna předem nastavenou akcí, může se jednat například o úpravu repozitáře\footnote{Repozitář je typ datové úložiště verzovacího systému.}  či dané větve repozitáře projektu. Sestavení a smoke testy jsou pak spouštěny automaticky, vývojář tak může sledovat stav integrace s informacemi o provedených testech. 
+Velkou výhodou tohoto frameworku je možné napojení na průběžnou integraci ve fázi vývoje. Průběžná integrace (Continuous Integration) slouží k urychlení nalezení chyb, integrace je spouštěna na integračním serveru podle předem zvoleného schématu. Metoda průběžné integrace je využívána i v projektu HEAppE, v průběhu sestavování aplikace je možné provést sadu testů z Robot Frameworku. Vývojáři pak budou mít lepší přehled o funkčnosti systému v dané fázi vývoje. Průběžná integrace je spouštěna předem nastavenou akcí, může se jednat například o úpravu repozitáře\footnote{Repozitář je typ datové úložiště verzovacího systému.} či dané větve repozitáře projektu. Sestavení a smoke testy jsou pak spouštěny automaticky, vývojář tak může sledovat stav integrace s informacemi o provedených testech. Metoda Continuous Integration je znázorněna na obrázku \ref{fig:ci}.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.2\textwidth]{Figures/cont-integration-diagram.png}
-	\caption{Průběžná integrace a smoke testování}
-	\label{fig:WritingThesis}
+	\includegraphics[width=0.6\textwidth]{Figures/cicd.png}
+	\caption{Průběžná integrace \cite{cGNjWevJUlEHf7YF}}
+	\label{fig:ci}
 \end{figure}
 
+\newpage
 \section{Testovací scénář pro HEAppE}
 Robot Framework je skvělým kandidátem pro testování hotových softwarových řešení. Pomocí tohoto frameworku je možné otestovat aplikační rozhraní daného systému z pohledu uživatele. Pro komplexní otestování HEAppE je možné vytvořit několik testovacích scénářů, které na sebe mohou navazovat. Základním scénářem pro používání HEAppE Middleware je vytvoření a spuštění úlohy na výpočetním clusteru. Z tohoto případu užití vychází i základní scénář pro automatizované testování HEAppE prostřednictvím Robot Framework.
 
-Důležitým krokem při užívaní HEAppE Middleware je provedení autentizace. HEAppE po úspěšné autentizaci uživatele vrátí vygenerovaný unikátní identifikátor, který uživatel následně přidává do každého dalšího příkazu.
+Důležitým krokem při užívaní HEAppE Middleware je provedení autentizace. HEAppE po úspěšné autentizaci uživatele vrátí vygenerovaný unikátní identifikátor, který uživatel následně přidává do každé další žádosti při volání endpointu.
 
-Hlavním úkolem tohoto testovacího plánu bude otestování spouštění úloh na dvou výpočetních clusterech. Na každý cluster bude podána žádost o spuštění tří konfigurací úloh (jednoduchá, s generickým command templatem a extra dlouhá úloha).
+Hlavním úkolem tohoto testovacího plánu bude otestování spouštění úloh výpočetních clusterech. Na každý cluster bude podána žádost o spuštění několika konfigurací úloh, tak aby byly otestovány všechny varianty specifikací úloh.
+
+Součástí této práce je vytvoření testovacího plánu k otestování funkcionalit HEAppE při užívání rozšíření pro lokální spouštění úloh. Testovací plán taktéž bude testovat nově vytvořené endpointy v sekci Management, které jsou určené ke správě šablon výpočtů (Command Template).
 
 \newpage
 Před spouštěním úloh budou otestovány funkcionality související s uživatelem HEAppE. Tyto kroky se nachází v následující tabulce \ref{tab:user-testing}.
@@ -123,7 +121,18 @@ Před spouštěním úloh budou otestovány funkcionality související s uživa
 	\label{tab:user-testing}
 \end{table}
 
-Dále bude otestováno spouštění třech různých úloh na dvou různých superpočítačových clusterech. Kroky určené k otestování jedné úlohy popisují kroky uvedené v tabulce \ref{tab:task-testing}.
+Dále bude otestováno spouštění pěti různých úloh různých superpočítačových clusterech. Kroky určené k otestování jedné úlohy popisují kroky uvedené v tabulce \ref{tab:task-testing}. 
+
+Zmiňovaná pětice specifikací úloh obsahuje úlohy popsané v následujícím seznamu. Konfigurace těchto úloh byly popisovány výše v kapitole \ref{chapter:chapter-about-heappe-middleware}.
+
+\begin{itemize}
+    \item Základní úloha
+    \item Úloha využívající generickou šablonu výpočtů
+    \item Úloha se specifikací extrémně dlouhé úlohy
+    \item Úloha využívající funkcionality JobArrays
+    \item Úloha s definovanou závislostí na jiné úloze
+\end{itemize}
+
 
 \begin{table}[!h]
 	\centering
@@ -157,18 +166,18 @@ Dále bude otestováno spouštění třech různých úloh na dvou různých sup
 \end{table}
 \newpage
 
-Protože je práce s úlohou na výpočetním clusteru řízena plánovačem, prakticky se jedná o předávání pokynů. Proto se v testovacím plánu musí vyskytovat čekání na vykonání příkazu. Při pokynu pro spuštění úlohy tak musíme čekat na to, až naši úlohu spustí plánovač na výpočetním clusteru. V testovacím scénáři je toto čekání implementováno cyklickým doptáváním HEAppE REST API s prodlevou, aby nedošlo k zablokování (toto chování by mohlo nést znaky DOS/DDOS útoku\footnote{DDOS nebo také DOS je typ útoku na internetové služby nebo stránky, jehož cílem je cílovou službu znefunkčnit a znepřístupnit ostatním uživatelům; může k tomu dojít zahlcením obrovským množstvím požadavků, ve variatně DDOS jde o distribuovaný DOS\cite{UUBpn6UTaV8mOipc}}). Následuje ukázka kódu testovacího scénáře Robot Frameworku obsahujícího popsané cyklické doptávání REST API. V tomto případě se cyklus se ukončí, pokud HEAppE vrátí stav, který značí, že je úloha spuštěna. Očekává se, že se stav změní v rámci jednotek či desítek minut, Roboto Framework neumožňuje práci s cykly s neznámým počtem opakování, proto byl při implementaci využit cyklus se známým počtem opakování.
+Protože je práce s úlohou na výpočetním clusteru řízena plánovačem, prakticky se jedná o předávání pokynů. Proto se v testovacím plánu musí vyskytovat čekání na vykonání příkazu. Při pokynu pro spuštění úlohy tak musíme čekat na to, až naši úlohu spustí plánovač na výpočetním clusteru. V testovacím scénáři je toto čekání implementováno cyklickým doptáváním HEAppE REST API s prodlevou, aby nedošlo k zablokování (toto chování by mohlo nést znaky DOS/DDOS útoku). Následuje ukázka kódu testovacího scénáře Robot Frameworku obsahujícího popsané cyklické doptávání REST API. V tomto případě se cyklus se ukončí, pokud HEAppE vrátí stav, který značí, že je úloha spuštěna. Očekává se, že se stav změní v rámci jednotek či desítek minut, Roboto Framework neumožňuje práci s cykly s neznámým počtem opakování, proto byl při implementaci využit cyklus se známým počtem opakování, horní interval cyklu byl nastaven na maximální povolenou hodnotu.
 
 Útržek testovacího scénáře obsahuje funkci WaitForJobRuns, úkolem této metody je počkat na spuštění úlohy plánovačem na výpočetním clusteru.
 
 
-
-Výsledkem tohoto testování je vygenerovaný report, programátor má pak lepší představu o funkčnosti jednotlivých částí systému. Tyto reporty Robot Framework připraví v grafické podobě, dostupné jsou ve formátu html. Surová data jsou součástí reportu ve struktuře XML\footnote{Výměnný formát pro přenos dat}.
-
-
-
-\hfill \break
 \lstinputlisting[language=bash, caption={Segment Robot Framework testu}]{SourceCodes/wait-for-job-runs.txt}
+
+Výsledkem tohoto testování je vygenerovaný report a log, programátor má pak lepší představu o funkčnosti jednotlivých částí systému. Tyto reporty Robot Framework připraví v grafické podobě, dostupné jsou ve formátu html. Surová data jsou součástí reportu ve struktuře XML\footnote{Výměnný formát pro přenos dat}.
+
+
+
+
 
 
 
@@ -177,11 +186,16 @@ Výsledkem tohoto testování je vygenerovaný report, programátor má pak lep�
 	\centering
 	\includegraphics[width=0.95\textwidth]{Figures/report-small.png}
 	\caption{Report Robot Frameworku}
-	\label{fig:WritingThesis}
+	\label{fig:report-robot-framework}
 \end{figure}
 
-Z výše uvedeného reportu můžeme vyčíst, že provedení scénáře trvalo pod 12 minut, pokud by tento scénář měl replikovat člověk, trvalo by to minimálně dvojnásobně déle. Tento test je prováděn pravidelně a několikrát za sebou, počáteční časové náklady na sestavení tohoto scénáře jsou nesrovnatelné s přínosem. Test navíc může běžet v pozadí automaticky a vývojář si tak jen vyzvedne výsledek. Následuje část reportu, který obsahuje i podobnější informace o každém provedeném kroku.
+Z výše uvedeného reportu můžeme vyčíst, že provedení scénáře trvalo pod 12 minut, pokud by tento scénář měl replikovat člověk, trvalo by to minimálně dvojnásobně déle. Tento test testoval endpointy popsané v tabulce \ref{tab:user-testing} a \ref{tab:task-testing} pro 2 superpočítačové clustery. Test může být prováděn pravidelně a několikrát za sebou, počáteční časové náklady na sestavení tohoto scénáře jsou nesrovnatelné s přínosem. Test navíc může běžet v pozadí automaticky a vývojář si tak jen vyzvedne výsledek. Následuje část reportu, který obsahuje i podobnější informace o každém provedeném kroku.
 
 
 Tento testovací scénář je možné volně rozšiřovat nebo vytvářet scénáře obdobné. Velmi praktické je i využití Robot Frameworku pro testování softwaru v době vývoje. Scénář můžeme měnit podle aktuálních požadavků např. při vývoji nové funkcionality.
+
+Prostřednictvím shodného testovacího scénáře byl otestován HEAppE Middleware s užitím lokálního spouštění úloh na hostitelském počítači. Tímto byla prokázána validita implementovaných rozšíření, které popisuje tato práce. Pro uživatele je užití lokálního simulovaného clusteru prostřednictvím HEAppE takřka nerozeznatelné od použití HEAppE se skutečným výpočetním clusterem.
+
+Navíc byly otestovány další endpointy, které je lepší testovat manuálně. Jedná se především o funkcionality HEAppE Middleware pro přenos dat, kdy je lepší provádět kontroly ručně.
+Výsledky těchto testů jsou součástí práce v kapitole příloh \ref{chapter:robot-framework-local-tests}.
 

@@ -1,10 +1,8 @@
 WaitForJobRuns
-	Log to console	\tWaiting for job runs...
 	${jsonstr}		Get file	../json/JobManagement/OperationJob.json
 	Set Global Variable		${jsonstr}		${jsonstr}
 	Set SessionCode
 	Set JobId To SubmittedJobInfoId
-	
 	FOR    ${i}    IN RANGE    999999
 		   ${response}=  Post /heappe/JobManagement/GetCurrentInfoForJob	${json}
 		   Set Global Variable		${Response}		${Response}
@@ -12,5 +10,4 @@ WaitForJobRuns
 		   Log    ${response}
 		   Exit For Loop If    ${response['body']['State']} >= 8
 		   Sleep    10s
-           
     END
