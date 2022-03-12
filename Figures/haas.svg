@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generováno Microsoft Visiem, export SVG haas.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="10.2695in" height="4.61532in"
+		viewBox="0 0 739.402 332.303" xml:space="preserve" color-interpolation-filters="sRGB" class="st62">
+	<v:documentProperties v:langID="1029" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#4672c4;fill-opacity:0;stroke:#595959;stroke-dasharray:5.25,3.75;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#595959;stroke-dasharray:5.25,3.75;stroke-width:0.75}
+		.st3 {fill:#3f3f3f;font-family:Calibri;font-size:0.666664em;font-weight:bold}
+		.st4 {fill:#3f3f3f;font-family:Calibri;font-size:0.666664em}
+		.st5 {fill:#ff00ff;fill-opacity:0}
+		.st6 {stroke:#595959;stroke-opacity:0;stroke-width:0.72}
+		.st7 {fill:url(#grad12-26);stroke:#595959;stroke-width:0.72}
+		.st8 {fill:url(#grad0-32)}
+		.st9 {stroke:#ffffff;stroke-width:0.72}
+		.st10 {fill:url(#grad0-32);stroke:#ffffff;stroke-width:0.72}
+		.st11 {fill:url(#grad0-54);stroke:#a78450;stroke-width:0.72}
+		.st12 {stroke:#a78450;stroke-width:0.72}
+		.st13 {stroke:#595959;stroke-width:1.5}
+		.st14 {fill:#3f3f3f;font-family:Calibri;font-size:1.00001em}
+		.st15 {stroke:#305497;stroke-opacity:0;stroke-width:0.72}
+		.st16 {fill:url(#grad3-86)}
+		.st17 {stroke:#305497;stroke-width:0.72}
+		.st18 {fill:url(#grad3-86);stroke:#305497;stroke-width:0.72}
+		.st19 {stroke:#305497;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st20 {stroke:#305497;stroke-width:2}
+		.st21 {fill:none;stroke:#595959;stroke-linecap:butt;stroke-width:1.25}
+		.st22 {visibility:visible}
+		.st23 {fill:#000000;fill-opacity:0.4;filter:url(#filter_2.6666667461395);stroke:#000000;stroke-linecap:butt;stroke-opacity:0.4}
+		.st24 {fill:#ffd965;stroke:#bf9000;stroke-linecap:butt;stroke-width:1.25}
+		.st25 {fill:none;stroke:none;stroke-width:0.25}
+		.st26 {fill:#ff00ff;fill-opacity:0;stroke:#595959;stroke-opacity:0;stroke-width:0.72}
+		.st27 {fill:url(#grad0-136)}
+		.st28 {stroke:#ffffff;stroke-width:0.36}
+		.st29 {fill:url(#grad11-141)}
+		.st30 {fill:url(#grad12-148);stroke:#ffffff;stroke-width:0.36}
+		.st31 {stroke:#595959;stroke-width:1}
+		.st32 {fill:url(#grad12-148);stroke:#000000;stroke-width:0.36}
+		.st33 {stroke:#000000;stroke-width:0.6}
+		.st34 {fill:#595959;stroke:#000000;stroke-width:0.36}
+		.st35 {fill:url(#grad8-168);stroke:#ffffff;stroke-width:0.12}
+		.st36 {fill:url(#grad10-172);stroke:none;stroke-width:0.12}
+		.st37 {fill:#595959;stroke:none;stroke-width:0.24}
+		.st38 {stroke:#000000;stroke-width:0.36}
+		.st39 {fill:url(#grad3-190)}
+		.st40 {stroke:#383872;stroke-width:0.72}
+		.st41 {fill:url(#grad3-190);stroke:#383872;stroke-width:0.36}
+		.st42 {stroke:#383872;stroke-width:0.36}
+		.st43 {fill:url(#grad12-254);stroke:#ffffff;stroke-width:0.24}
+		.st44 {fill:url(#grad0-260);stroke:#ffffff;stroke-width:0.24}
+		.st45 {fill:url(#grad11-282);stroke:#000000;stroke-width:0.24}
+		.st46 {fill:#ffffff;stroke:none;stroke-width:0.72}
+		.st47 {fill:#969696;fill-opacity:0.3;stroke:none;stroke-width:0.72}
+		.st48 {fill:#808080;fill-opacity:0.5}
+		.st49 {fill:url(#grad11-282)}
+		.st50 {stroke:#000000;stroke-width:0.24}
+		.st51 {stroke:#ffffff;stroke-width:0.24}
+		.st52 {fill:none;stroke:#595959;stroke-width:1}
+		.st53 {fill:#000000}
+		.st54 {fill:#ffffff;fill-opacity:0.6}
+		.st55 {fill:url(#grad3-329);stroke:#000000;stroke-width:0.12}
+		.st56 {fill:url(#grad10-333);stroke:#000000;stroke-width:0.24}
+		.st57 {font-size:1em}
+		.st58 {stroke:#a78450;stroke-width:0.36}
+		.st59 {marker-end:url(#mrkr1-400);marker-start:url(#mrkr1-398);stroke:#595959;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st60 {fill:#595959;fill-opacity:1;stroke:#595959;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st61 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st62 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<pattern id="grad12-26" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad0-27)"/>
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad0-28)"/>
+		</pattern>
+		<linearGradient id="grad0-27" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#262626" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5f5f5f" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-28" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(360 0.5 0.5)">
+			<stop offset="0" stop-color="#262626" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5f5f5f" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-32" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#262626" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5f5f5f" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-54" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0.01" stop-color="#262626" stop-opacity="1"/>
+			<stop offset="0.5" stop-color="#424242" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5f5f5f" stop-opacity="1"/>
+		</linearGradient>
+		<pattern id="grad11-58" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 1 L 0 0 L 1 0 z" style="fill:url(#grad0-59)"/>
+			<path d="M 0 1 L 1 1 L 1 0 z" style="fill:url(#grad0-27)"/>
+		</pattern>
+		<linearGradient id="grad0-59" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0" stop-color="#262626" stop-opacity="1"/>
+			<stop offset="1" stop-color="#5f5f5f" stop-opacity="1"/>
+		</linearGradient>
+		<radialGradient id="grad3-86" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#b6c7e7" stop-opacity="1"/>
+			<stop offset="1" stop-color="#dce4f3" stop-opacity="1"/>
+		</radialGradient>
+		<radialGradient id="grad3-94" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#b6c7e7" stop-opacity="1"/>
+			<stop offset="1" stop-color="#b6c7e7" stop-opacity="1"/>
+		</radialGradient>
+		<linearGradient id="grad0-136" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="1"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="1"/>
+		</linearGradient>
+		<pattern id="grad11-141" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 1 L 0 0 L 1 0 z" style="fill:url(#grad0-142)"/>
+			<path d="M 0 1 L 1 1 L 1 0 z" style="fill:url(#grad0-143)"/>
+		</pattern>
+		<linearGradient id="grad0-142" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="1"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-143" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="1"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="1"/>
+		</linearGradient>
+		<pattern id="grad12-148" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad0-143)"/>
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad0-149)"/>
+		</pattern>
+		<linearGradient id="grad0-149" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(360 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="1"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="1"/>
+		</linearGradient>
+		<pattern id="grad8-168" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad0-136)"/>
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad0-142)"/>
+		</pattern>
+		<pattern id="grad10-172" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0.5 0.5 L 0 0 L 0 1 z" style="fill:url(#grad0-173)"/>
+			<path d="M 0.5 0.5 L 1 0 L 1 1 z" style="fill:url(#grad0-174)"/>
+			<path d="M 0.5 0.5 L 0 0 L 1 0 z" style="fill:url(#grad0-175)"/>
+			<path d="M 0.5 0.5 L 0 1 L 1 1 z" style="fill:url(#grad0-176)"/>
+		</pattern>
+		<linearGradient id="grad0-173" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="0.4"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="0.4"/>
+		</linearGradient>
+		<linearGradient id="grad0-174" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(360 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="0.4"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="0.4"/>
+		</linearGradient>
+		<linearGradient id="grad0-175" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="0.4"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="0.4"/>
+		</linearGradient>
+		<linearGradient id="grad0-176" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#595959" stop-opacity="0.4"/>
+			<stop offset="1" stop-color="#929292" stop-opacity="0.4"/>
+		</linearGradient>
+		<radialGradient id="grad3-190" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#c6d1e3" stop-opacity="1"/>
+			<stop offset="1" stop-color="#4e8ec2" stop-opacity="1"/>
+		</radialGradient>
+		<radialGradient id="grad3-201" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#a5a5a5" stop-opacity="1"/>
+			<stop offset="1" stop-color="#b7b7b7" stop-opacity="1"/>
+		</radialGradient>
+		<pattern id="grad12-254" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 0 L 0 1 L 1 1 z" style="fill:url(#grad0-255)"/>
+			<path d="M 0 0 L 1 0 L 1 1 z" style="fill:url(#grad0-256)"/>
+		</pattern>
+		<linearGradient id="grad0-255" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#a7a7a7" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-256" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(360 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#a7a7a7" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-260" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#dfdfdf" stop-opacity="1"/>
+		</linearGradient>
+		<pattern id="grad11-282" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0 1 L 0 0 L 1 0 z" style="fill:url(#grad0-283)"/>
+			<path d="M 0 1 L 1 1 L 1 0 z" style="fill:url(#grad0-284)"/>
+		</pattern>
+		<linearGradient id="grad0-283" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c0c0c0" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-284" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c0c0c0" stop-opacity="1"/>
+		</linearGradient>
+		<radialGradient id="grad3-329" cx="0.5" cy="0.5" r="0.73">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#008000" stop-opacity="1"/>
+		</radialGradient>
+		<pattern id="grad10-333" x="0" y="0" width="1" height="1" patternContentUnits="objectBoundingBox">
+			<path d="M 0.5 0.5 L 0 0 L 0 1 z" style="fill:url(#grad0-334)"/>
+			<path d="M 0.5 0.5 L 1 0 L 1 1 z" style="fill:url(#grad0-335)"/>
+			<path d="M 0.5 0.5 L 0 0 L 1 0 z" style="fill:url(#grad0-336)"/>
+			<path d="M 0.5 0.5 L 0 1 L 1 1 z" style="fill:url(#grad0-337)"/>
+		</pattern>
+		<linearGradient id="grad0-334" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(180 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c6d1e3" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-335" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(360 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c6d1e3" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-336" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(270 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c6d1e3" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="grad0-337" x1="0" y1="0" x2="1" y2="0" gradientTransform="rotate(90 0.5 0.5)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#c6d1e3" stop-opacity="1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend1">
+			<path d="M 1 -1 L 0 0 L 1 1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr1-398" class="st60" v:arrowType="1" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(3.52) "/>
+		</marker>
+		<marker id="mrkr1-400" class="st60" v:arrowType="1" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<defs id="Filters">
+		<filter id="filter_2.6666667461395">
+			<feGaussianBlur stdDeviation="2.6666667461395"/>
+		</filter>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+			<v:ud v:nameU="NodeCount" v:prompt="" v:val="VT0(2):26"/>
+		</v:userDefs>
+		<title>Stránka-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Kontejner" v:index="0"/>
+		<v:layer v:name="Spojnice" v:index="1"/>
+		<g id="group1001-1" transform="translate(87.7747,-18.75)" v:mID="1001" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.125):0"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+			</v:userDefs>
+			<title>Přehled diagramu.1001</title>
+			<g id="shape1001-2" v:mID="1001" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 332.3 L210.76 332.3 L210.76 37.5 L0 37.5 L0 332.3 Z" class="st1"/>
+			</g>
+			<g id="shape1002-4" v:mID="1002" v:groupContext="shape" v:layerMember="0" transform="translate(0,-277.2)">
+				<title>List.1002</title>
+				<desc>Virtual Infastructure</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="38.7168" cy="323.501" width="77.44" height="17.6036"/>
+				<path d="M0 332.3 L70.35 332.3 L77.43 325.22 L77.43 314.7 L0 314.7 L0 332.3 Z" class="st2"/>
+				<text x="4" y="325.9" class="st3" v:langID="1029"><v:paragraph/><v:tabList/>Virtual Infastructure</text>			</g>
+		</g>
+		<g id="group1004-7" transform="translate(349.313,-18.75)" v:mID="1004" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.125):0"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+			</v:userDefs>
+			<title>Přehled diagramu.1004</title>
+			<g id="shape1004-8" v:mID="1004" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 332.3 L371.34 332.3 L371.34 37.5 L0 37.5 L0 332.3 Z" class="st1"/>
+			</g>
+			<g id="shape1005-10" v:mID="1005" v:groupContext="shape" v:layerMember="0" transform="translate(0,-277.2)">
+				<title>List.1005</title>
+				<desc>HPC Infrastructure</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="35.0603" cy="323.501" width="70.13" height="17.6036"/>
+				<path d="M0 332.3 L63.03 332.3 L70.12 325.22 L70.12 314.7 L0 314.7 L0 332.3 Z" class="st1"/>
+				<text x="4.91" y="325.9" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>HPC Infrastructure</text>			</g>
+		</g>
+		<g id="group1072-13" transform="translate(374.57,-184.08)" v:mID="1072" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.125):0"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerStyle" v:prompt="" v:val="VT0(2):26"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+			</v:userDefs>
+			<title>Přehled diagramu.1072</title>
+			<g id="shape1072-14" v:mID="1072" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 332.3 L320.57 332.3 L320.57 228.09 L0 228.09 L0 332.3 Z" class="st1"/>
+			</g>
+			<g id="shape1073-16" v:mID="1073" v:groupContext="shape" v:layerMember="0" transform="translate(0,-86.6127)">
+				<title>List.1073</title>
+				<desc>Scratch Storage</desc>
+				<v:userDefs>
+					<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#ffffff)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+					<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#4672c4)"/>
+					<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+					<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#3d64ac)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="323.501" width="64" height="17.6036"/>
+				<path d="M0 332.3 L56.91 332.3 L64 325.22 L64 314.7 L0 314.7 L0 332.3 Z" class="st1"/>
+				<text x="6.65" y="325.9" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Scratch Storage</text>			</g>
+		</g>
+		<g id="group1029-19" transform="translate(605.712,-61.2697)" v:mID="1029" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Vybavení)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Počítač)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="SubShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Sálový počítač)"/>
+				<v:cp v:nameU="Manufacturer" v:lbl="Výrobce" v:type="0" v:sortKey="Equipment" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="ProductNumber" v:lbl="Číslo výrobku" v:type="0" v:sortKey="Equipment" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="PartNumber" v:lbl="Číslo součásti" v:type="0" v:sortKey="Equipment" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="ProductDescription" v:lbl="Popis výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="AssetNumber" v:lbl="Inventární číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="SerialNumber" v:lbl="Sériové číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="Location" v:lbl="Umístění" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="Building" v:lbl="Budova" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="Room" v:lbl="Místnost" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NetworkName" v:lbl="Síťový název" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="IPAddress" v:lbl="IP adresa" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="SubnetMask" v:lbl="Maska podsítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="AdminInterface" v:lbl="Rozhraní pro správu" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NumberofPorts" v:lbl="Počet portů" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="MACAddress" v:lbl="Adresa MAC" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="CommunityString" v:lbl="Řetězec komunity" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NetworkDescription" v:lbl="Popis sítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShapeType" v:val="VT0(6):26"/>
+				<v:ud v:nameU="SubShapeType" v:val="VT0(41):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT15({BF0433D9-CD73-4EB5-8390-8653BE590246}):41"/>
+				<v:ud v:nameU="visLegendShape" v:val="VT0(2):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="HasText" v:prompt="" v:val="VT0(1):5"/>
+			</v:userDefs>
+			<title>Superpočítač.1029</title>
+			<desc>HPC Clusters</desc>
+			<g id="shape1030-20" v:mID="1030" v:groupContext="shape">
+				<title>List.1030</title>
+				<path d="M34.4 252.33 L34.39 252.35 L34.4 252.33 ZM56.69 301.12 A28.3465 16.4409 -180 0 0 54.08 294.23 L42.52 297.32
+							 L42.52 250.72 A14.1732 8.22047 -180 0 0 41.24 247.3 L34.4 249.12 A6.66142 3.86362 0 0 1 35.01 250.73
+							 A6.66142 3.89764 -180 0 0 34.4 249.12 L34.4 252.36 A6.67919 3.87393 0 0 1 22.32 252.36 L22.3 249.1 A6.66142
+							 3.89764 -180 0 0 21.69 250.73 A6.66142 3.86362 0 0 1 22.3 249.1 L15.48 247.26 A14.3948 8.34896 -180
+							 0 0 14.17 250.72 L14.17 297.32 L2.61 294.23 A28.3465 16.4409 -180 0 0 -0 301.12 L0 315.86 A28.3465 16.4409
+							 -180 0 0 56.69 315.86 L56.69 301.12 Z" class="st5"/>
+				<path d="M34.4 252.33 L34.39 252.35M56.69 301.12 A28.3465 16.4409 -180 0 0 54.08 294.23 L42.52 297.32 L42.52 250.72
+							 A14.1732 8.22047 -180 0 0 41.24 247.3 L34.4 249.12 A6.66142 3.86362 0 0 1 35.01 250.73 A6.66142 3.89764
+							 -180 0 0 34.4 249.12 L34.4 252.36 A6.67919 3.87393 0 0 1 22.32 252.36 L22.3 249.1 A6.66142 3.89764 -180
+							 0 0 21.69 250.73 A6.66142 3.86362 0 0 1 22.3 249.1 L15.48 247.26 A14.3948 8.34896 -180 0 0 14.17 250.72
+							 L14.17 297.32 L2.61 294.23 A28.3465 16.4409 -180 0 0 -0 301.12 L0 315.86 A28.3465 16.4409 -180 0 0 56.69
+							 315.86 L56.69 301.12" class="st6"/>
+			</g>
+			<g id="shape1031-23" v:mID="1031" v:groupContext="shape" transform="translate(21.685,-79.9284)">
+				<title>List.1031</title>
+				<path d="M12.72 332.29 A6.66142 3.89764 -180 0 0 12.72 329.04 L12.72 332.29 ZM0.62 329.03 A6.66142 3.89764 -180 0
+							 0 0.62 332.3 L0.62 329.03 Z" class="st7"/>
+			</g>
+			<g id="shape1032-29" v:mID="1032" v:groupContext="shape" transform="translate(14.1732,-73.3606)">
+				<title>List.1032</title>
+				<path d="M1.31 320.63 A14.1732 8.22047 -180 1 0 27.06 320.66 L20.23 322.48 A6.66142 3.86362 0 1 1 8.13 322.46 L1.3
+							 320.62 L1.31 320.63 Z" class="st8"/>
+				<path d="M1.31 320.63 A14.1732 8.22047 -180 1 0 27.06 320.66 L20.23 322.48 A6.66142 3.86362 0 1 1 8.13 322.46 L1.3
+							 320.62" class="st9"/>
+			</g>
+			<g id="shape1033-34" v:mID="1033" v:groupContext="shape" transform="translate(0,-14.7402)">
+				<title>List.1033</title>
+				<path d="M2.61 308.97 A28.3465 16.4409 -180 1 0 54.08 308.97 L28.35 315.86 L2.61 308.97 Z" class="st10"/>
+			</g>
+			<g id="shape1034-37" v:mID="1034" v:groupContext="shape" transform="translate(2.61336,-16.3979)">
+				<title>List.1034</title>
+				<path d="M0 324.42 L12.98 320.92" class="st9"/>
+				<path d="M19.55 324.89 L13.33 332.3" class="st9"/>
+				<path d="M38.14 332.3 L31.91 324.89" class="st9"/>
+				<path d="M38.49 320.92 L51.47 324.42" class="st9"/>
+			</g>
+			<g id="shape1035-44" v:mID="1035" v:groupContext="shape" transform="translate(15.4799,-74.1895)">
+				<title>List.1035</title>
+				<path d="M0 328.36 L6.82 326.56" class="st9"/>
+				<path d="M10.03 328.4 L6.66 332.3" class="st9"/>
+				<path d="M19.07 332.3 L15.7 328.4" class="st9"/>
+				<path d="M18.92 326.55 L25.73 328.36" class="st9"/>
+			</g>
+			<g id="shape1036-51" v:mID="1036" v:groupContext="shape" transform="translate(14.1732,-22.9606)">
+				<title>List.1036</title>
+				<path d="M0 273.68 L0 324.08 A14.1732 8.22047 -180 0 0 28.35 324.08 L28.35 273.68 A14.1732 8.22047 0 0 1 0 273.68
+							 Z" class="st11"/>
+			</g>
+			<g id="shape1037-55" v:mID="1037" v:groupContext="shape" transform="translate(15.4799,-23.811)">
+				<title>List.1037</title>
+				<path d="M0 277.98 L0.11 328.33" class="st12"/>
+				<path d="M6.69 332.3 L6.66 281.92" class="st12"/>
+				<path d="M19.07 281.92 L19.05 332.3" class="st12"/>
+				<path d="M25.62 328.33 L25.73 277.98" class="st12"/>
+			</g>
+			<g id="shape1038-64" v:mID="1038" v:groupContext="shape">
+				<title>List.1038</title>
+				<path d="M0 301.12 L0 315.86 A28.3465 16.4409 -180 1 0 56.69 315.86 L56.69 301.12 A28.3465 16.4409 0 0 1 0 301.12
+							 Z" class="st11"/>
+			</g>
+			<g id="shape1039-67" v:mID="1039" v:groupContext="shape" transform="translate(2.61336,-1.65778)">
+				<title>List.1039</title>
+				<path d="M0 309.68 L0 324.42" class="st12"/>
+				<path d="M13.33 332.3 L13.33 317.56" class="st12"/>
+				<path d="M38.14 317.56 L38.14 332.3" class="st12"/>
+				<path d="M51.47 324.42 L51.47 309.68" class="st12"/>
+			</g>
+			<g id="shape1040-74" v:mID="1040" v:groupContext="shape">
+				<title>List.1040</title>
+				<path d="M14.17 297.32 L2.61 294.23 A28.3465 16.4409 -180 0 0 -0 301.12 L0 315.86 A28.3465 16.4409 -180 0 0 56.69
+							 315.86 L56.69 301.12 A28.3465 16.4409 -180 0 0 54.08 294.23 L42.52 297.32 L42.52 250.72 A14.1732 8.22047
+							 -180 0 0 41.24 247.3 L34.4 249.12 L34.4 252.36 A6.67919 3.87393 0 0 1 22.32 252.36 L22.3 249.1 L15.48
+							 247.26 A14.3948 8.34896 -180 0 0 14.17 250.72 L14.17 297.32" class="st13"/>
+			</g>
+			<g id="shape1029-77" v:mID="1029" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="28.3465" cy="343.505" width="72.53" height="22.4037"/>
+				<text x="-2.56" y="347.11" class="st14" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>HPC Clusters</text>			</g>
+		</g>
+		<g id="group1041-79" transform="translate(23.329,-215.758)" v:mID="1041" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Name" v:lbl="Název" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="Location" v:lbl="Umístění" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="Building" v:lbl="Budova" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="Room" v:lbl="Místnost" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="Department" v:lbl="Oddělení" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Připojení)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Uživatel)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT0(4):26"/>
+				<v:ud v:nameU="ShapeType" v:val="VT0(4):26"/>
+				<v:ud v:nameU="SolSH" v:val="VT15({BF0433D9-CD73-4EB5-8390-8653BE590246}):41"/>
+				<v:ud v:nameU="visLegendShape" v:val="VT0(2):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="HasText" v:prompt="" v:val="VT0(1):5"/>
+			</v:userDefs>
+			<title>Uživatel.1041</title>
+			<desc>Users</desc>
+			<g id="shape1042-80" v:mID="1042" v:groupContext="shape" transform="translate(-4.60905,0)">
+				<title>List.1042</title>
+				<path d="M11.66 295.39 A19.0671 18.6615 -180 0 0 -0 311.71 L0.06 319.37 A6.49779 6.35958 -180 0 0 2.49 324.41 A2.50228
+							 2.44905 -180 0 0 5.27 324.87 A3.34855 3.27733 -180 0 0 6.87 327.35 A45.299 44.3354 -180 0 0 28.24 332.3
+							 A14.6407 14.3293 -180 0 0 35.12 330.51 A2.37367 2.32318 -180 0 0 37.88 330.95 A9.81186 9.60315 -180
+							 0 0 42.49 326.22 L42.49 312.73 A18.6915 18.2939 -180 0 0 30.86 296.73 L30.75 296.72 A12.641 12.3721
+							 -180 1 0 11.69 295.4 L11.66 295.39 Z" class="st5"/>
+				<path d="M11.66 295.39 A19.0671 18.6615 -180 0 0 -0 311.71 L0.06 319.37 A6.49779 6.35958 -180 0 0 2.49 324.41 A2.50228
+							 2.44905 -180 0 0 5.27 324.87 A3.34855 3.27733 -180 0 0 6.87 327.35 A45.299 44.3354 -180 0 0 28.24 332.3
+							 A14.6407 14.3293 -180 0 0 35.12 330.51 A2.37367 2.32318 -180 0 0 37.88 330.95 A9.81186 9.60315 -180
+							 0 0 42.49 326.22 L42.49 312.73 A18.6915 18.2939 -180 0 0 30.86 296.73 L30.75 296.72 A12.641 12.3721
+							 -180 1 0 11.69 295.4" class="st15"/>
+			</g>
+			<g id="shape1043-83" v:mID="1043" v:groupContext="shape" transform="translate(0.0287731,-5.68434E-13)">
+				<title>List.1043</title>
+				<path d="M6.87 327.35 A45.299 44.3354 -180 0 0 28.24 332.3 A14.6407 14.3293 -180 0 0 35.12 330.51 A2.37367 2.32318
+							 -180 0 0 37.88 330.95 A9.81186 9.60315 -180 0 0 42.49 326.22 L42.49 312.73 A18.6915 18.2939 -180 0 0
+							 30.86 296.73 L11.66 295.39 A19.0671 18.6615 -180 0 0 -0 311.71 L0.06 319.37 A6.49779 6.35958 -180 0
+							 0 2.49 324.41 A2.50228 2.44905 -180 0 0 5.27 324.87 A3.34855 3.27733 -180 0 0 6.87 327.35 Z"
+						class="st16"/>
+				<path d="M6.87 327.35 A45.299 44.3354 -180 0 0 28.24 332.3 A14.6407 14.3293 -180 0 0 35.12 330.51 A2.37367 2.32318
+							 -180 0 0 37.88 330.95 A9.81186 9.60315 -180 0 0 42.49 326.22 L42.49 312.73 A18.6915 18.2939 -180 0 0
+							 30.86 296.73M11.66 295.39 A19.0671 18.6615 -180 0 0 -0 311.71 L0.06 319.37 A6.49779 6.35958 -180 0 0
+							 2.49 324.41 A2.50228 2.44905 -180 0 0 5.27 324.87 A3.34855 3.27733 -180 0 0 6.87 327.35" class="st17"/>
+			</g>
+			<g id="shape1044-88" v:mID="1044" v:groupContext="shape" transform="translate(9.19345,-31.9487)">
+				<title>List.1044</title>
+				<ellipse cx="12.641" cy="319.931" rx="12.641" ry="12.3721" class="st18"/>
+			</g>
+			<g id="shape1045-91" v:mID="1045" v:groupContext="shape" transform="translate(-322.489,270.262) rotate(-80.5423)">
+				<title>List.1045</title>
+				<path d="M-0 332.3 A43.8253 55.1945 0 0 1 23.71 332.3" class="st19"/>
+			</g>
+			<g id="shape1046-96" v:mID="1046" v:groupContext="shape" transform="translate(-295.087,355.081) rotate(-94.2553)">
+				<title>List.1046</title>
+				<path d="M-0 331.15 A84.7366 106.767 -180 0 0 24.82 331.15" class="st19"/>
+			</g>
+			<g id="shape1047-100" v:mID="1047" v:groupContext="shape" transform="translate(11.7216,-32.1571)">
+				<title>List.1047</title>
+				<path d="M0 327.34 A12.6648 12.3954 -180 0 0 19.09 328.67" class="st17"/>
+			</g>
+			<g id="shape1048-104" v:mID="1048" v:groupContext="shape" transform="translate(0.0287731,0)">
+				<title>List.1048</title>
+				<path d="M11.66 295.39 A19.4535 19.0397 -180 0 0 -0 311.72 L0.06 319.37 A6.49779 6.35958 -180 0 0 2.49 324.41 A2.50228
+							 2.44905 -180 0 0 5.27 324.87 A3.34855 3.27733 -180 0 0 6.87 327.35 A45.299 44.3354 -180 0 0 28.24 332.3
+							 A14.6407 14.3293 -180 0 0 35.12 330.51 A2.37367 2.32318 -180 0 0 37.88 330.95 A9.81186 9.60315 -180
+							 0 0 42.49 326.22 L42.49 313.98 A18.5051 18.1115 -180 0 0 30.86 296.73 L30.75 296.72 A12.646 12.377 -180
+							 1 0 11.66 295.39" class="st20"/>
+			</g>
+			<g id="shape1041-107" v:mID="1041" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="21.2598" cy="343.505" width="37.96" height="22.4037"/>
+				<text x="7.64" y="347.11" class="st14" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Users</text>			</g>
+		</g>
+		<g id="shape1075-109" v:mID="1075" v:groupContext="shape" transform="translate(408.586,-208.671)">
+			<title>Úložiště dat.1075</title>
+			<desc>User Data Storage</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(5):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="CH" v:prompt="" v:val="VT0(0):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="48.4441" cy="320.965" width="64.67" height="13.6036"/>
+			<path d="M0 300.41 A46.8992 10.6299 0 0 1 93.8 300.41 A46.8992 10.6299 0 1 1 0 300.41 ZM0 300.41 L0 321.67 A46.8992 10.6299
+						 -180 0 0 93.8 321.67 L93.8 300.41 A46.8992 10.6299 0 0 1 0 300.41 Z" class="st21"/>
+			<text x="19.02" y="323.36" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>User Data Storage</text>		</g>
+		<g id="shape1076-112" v:mID="1076" v:groupContext="shape" transform="translate(570.416,-236.663)">
+			<title>Hierarchie objektů.1076</title>
+			<v:custProps>
+				<v:cp v:nameU="subtype" v:lbl="Typ objektu" v:type="1" v:format="Kolekce;Standardní" v:langID="1029"
+						v:val="VT4(Standardní)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="bundle" v:val="VT0(1):26"/>
+				<v:ud v:nameU="subtype0" v:val="VT4(Standardní)"/>
+				<v:ud v:nameU="subtype1" v:val="VT4(Kolekce)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow1076-113" v:groupContext="shadow" v:shadowOffsetX="-2.12132" v:shadowOffsetY="-2.12132" v:shadowType="1"
+					transform="matrix(1,0,0,1,-2.12132,2.12132)" class="st22">
+				<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st23"/>
+			</g>
+			<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st24"/>
+		</g>
+		<g id="shape1077-117" v:mID="1077" v:groupContext="shape" transform="translate(584.589,-225.325)">
+			<title>Hierarchie objektů.1077</title>
+			<v:custProps>
+				<v:cp v:nameU="subtype" v:lbl="Typ objektu" v:type="1" v:format="Kolekce;Standardní" v:langID="1029"
+						v:val="VT4(Standardní)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="bundle" v:val="VT0(1):26"/>
+				<v:ud v:nameU="subtype0" v:val="VT4(Standardní)"/>
+				<v:ud v:nameU="subtype1" v:val="VT4(Kolekce)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow1077-118" v:groupContext="shadow" v:shadowOffsetX="-2.12132" v:shadowOffsetY="-2.12132" v:shadowType="1"
+					transform="matrix(1,0,0,1,-2.12132,2.12132)" class="st22">
+				<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st23"/>
+			</g>
+			<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st24"/>
+		</g>
+		<g id="shape1078-122" v:mID="1078" v:groupContext="shape" transform="translate(595.927,-215.878)">
+			<title>Hierarchie objektů.1078</title>
+			<v:custProps>
+				<v:cp v:nameU="subtype" v:lbl="Typ objektu" v:type="1" v:format="Kolekce;Standardní" v:langID="1029"
+						v:val="VT4(Standardní)"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="bundle" v:val="VT0(1):26"/>
+				<v:ud v:nameU="subtype0" v:val="VT4(Standardní)"/>
+				<v:ud v:nameU="subtype1" v:val="VT4(Kolekce)"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<g id="shadow1078-123" v:groupContext="shadow" v:shadowOffsetX="-2.12132" v:shadowOffsetY="-2.12132" v:shadowType="1"
+					transform="matrix(1,0,0,1,-2.12132,2.12132)" class="st22">
+				<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st23"/>
+			</g>
+			<path d="M0 332.3 L42.52 332.3 L42.52 304.2 L0 304.2 L0 332.3 Z" class="st24"/>
+		</g>
+		<g id="shape1079-127" v:mID="1079" v:groupContext="shape" transform="translate(568.983,-193.08)">
+			<title>List.1079</title>
+			<desc>Submitted Jobs Data</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.7008" cy="322.303" width="79.41" height="20"/>
+			<rect x="0" y="312.303" width="79.4016" height="20" class="st25"/>
+			<text x="6.28" y="324.7" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Submitted Jobs Data</text>		</g>
+		<g id="group1095-130" transform="translate(148.053,-208.671)" v:mID="1095" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Manufacturer" v:lbl="Výrobce" v:type="0" v:sortKey="Equipment" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="ProductNumber" v:lbl="Číslo výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="PartNumber" v:lbl="Číslo součásti" v:type="0" v:sortKey="Equipment" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="ProductDescription" v:lbl="Popis výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="AssetNumber" v:lbl="Inventární číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="SerialNumber" v:lbl="Sériové číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Location" v:lbl="Umístění" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Building" v:lbl="Budova" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Room" v:lbl="Místnost" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Department" v:lbl="Oddělení" v:langID="1029"/>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Vybavení)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Server)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="SubShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Komunikace)"/>
+				<v:cp v:nameU="NetworkName" v:lbl="Síťový název" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="IPAddress" v:lbl="IP adresa" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="SubnetMask" v:lbl="Maska podsítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="AdminInterface" v:lbl="Rozhraní pro správu" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NumberofPorts" v:lbl="Počet portů" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="MACAddress" v:lbl="Adresa MAC" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="CommunityString" v:lbl="Řetězec komunity" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NetworkDescription" v:lbl="Popis sítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="HardDriveSize" v:lbl="Kapacita pevného disku" v:type="0" v:sortKey="Workstation" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="CPU" v:lbl="Procesor" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="Memory" v:lbl="Paměť" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="OperatingSystem" v:lbl="Operační systém" v:type="0" v:sortKey="Workstation" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+				<v:ud v:nameU="SolSH" v:val="VT15({BF0433D9-CD73-4EB5-8390-8653BE590246}):41"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShapeType" v:val="VT0(24):26"/>
+				<v:ud v:nameU="SubShapeType" v:val="VT0(11):26"/>
+				<v:ud v:nameU="visLegendShape" v:val="VT0(2):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="HasText" v:prompt="" v:val="VT0(1):5"/>
+			</v:userDefs>
+			<title>Server pro kom. v reálném čase.1095</title>
+			<desc>Rex Scheduler</desc>
+			<g id="shape1096-131" v:mID="1096" v:groupContext="shape">
+				<title>List.1096</title>
+				<path d="M42 320.06 L51.02 315.2 L51.02 271.95 L31.4 261.44 L0 278.54 L0.01 322.48 A33.0369 30.8521 -180 0 0 19.37
+							 332.3 L26.11 328.62 A2.77955 2.60278 -180 0 0 26.58 329.07 A1.07039 1.00232 -180 0 0 27.77 329.26 A1.4324
+							 1.34131 -180 0 0 28.45 330.28 A19.3775 18.1451 -180 0 0 37.59 332.3 A6.26283 5.86453 -180 0 0 40.53
+							 331.57 a1.01538 0.950805 -180 0 0 1.17949 0.181596 A4.1972 3.93027 -180 0 0 43.69 329.81 L43.69 324.29
+							 A7.99564 7.48713 -180 0 0 42 320.06 ZM8.71 285.39 A34.0948 31.84 -180 0 0 19.37 289.17 A33.7139 31.4843
+							 0 0 1 8.71 285.39 Z" class="st26"/>
+			</g>
+			<g id="shape1097-133" v:mID="1097" v:groupContext="shape" transform="translate(0,-43.1295)">
+				<title>List.1097</title>
+				<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3 L19.36 332.3 Z"
+						class="st27"/>
+				<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3" class="st28"/>
+			</g>
+			<g id="shape1098-138" v:mID="1098" v:groupContext="shape" transform="translate(0.0115937,0)">
+				<title>List.1098</title>
+				<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35 289.17
+							 L19.36 289.17 Z" class="st29"/>
+				<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35 289.17"
+						class="st28"/>
+			</g>
+			<g id="shape1099-145" v:mID="1099" v:groupContext="shape" transform="translate(19.3628,-0.0487457)">
+				<title>List.1099</title>
+				<path d="M0 289.22 L0 332.3 L31.66 315.25 L31.66 271.99 L0 289.22 Z" class="st30"/>
+			</g>
+			<g id="shape1100-150" v:mID="1100" v:groupContext="shape" transform="translate(3.19744E-14,-0.00156214)">
+				<title>List.1100</title>
+				<path d="M51.02 271.95 L31.4 261.44 L0 278.54 L0.01 322.48 A33.0369 30.8521 -180 0 0 19.37 332.3 L51.02 315.2 L51.02
+							 271.95" class="st31"/>
+			</g>
+			<g id="shape1101-153" v:mID="1101" v:groupContext="shape" transform="translate(-105.447,-2.74088) rotate(-20)">
+				<title>List.1101</title>
+				<ellipse cx="1.4821" cy="330.285" rx="1.4821" ry="2.01816" class="st32"/>
+			</g>
+			<g id="shape1102-156" v:mID="1102" v:groupContext="shape" transform="translate(3.13992,-6.23262)">
+				<title>List.1102</title>
+				<path d="M-0 320.33 A37.8205 34.5426 -96.44 0 0 13.08 327.05" class="st33"/>
+				<path d="M0 322.96 A37.8205 34.5426 -96.44 0 0 13.08 329.68" class="st33"/>
+				<path d="M0 325.58 A37.8205 34.5426 -96.44 0 0 13.08 332.3" class="st33"/>
+			</g>
+			<g id="group1103-162" transform="translate(2.6166,-30.546)" v:mID="1103" v:groupContext="group">
+				<title>List.1103</title>
+				<g id="shape1104-163" v:mID="1104" v:groupContext="shape" transform="translate(0,-7.06961)">
+					<title>List.1104</title>
+					<path d="M0.47 325.58 A32.9981 30.8159 -180 0 0 13.55 332.3 a0.670503 0.62616 -180 0 0 3.01981E-14 -1.22178 A32.1003
+								 29.9774 0 0 1 0.73 324.56 a0.434387 0.40566 -180 0 0 -0.725202 0.344859 a0.946727 0.884117 -180
+								 0 0 0.463543 0.681433 Z" class="st34"/>
+				</g>
+				<g id="shape1105-165" v:mID="1105" v:groupContext="shape" transform="translate(4.16081,-8.60965)">
+					<title>List.1105</title>
+					<path d="M4.02 332.25 A4.90309 2.98481 -90.9 0 0 0.1 330.3 A3.22599 1.60837 -180 0 0 4.02 332.25 Z"
+							class="st35"/>
+				</g>
+				<g id="shape1106-169" v:mID="1106" v:groupContext="shape" transform="translate(0.523319,-0.0610888)">
+					<title>List.1106</title>
+					<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 -0 322.16
+								 Z" class="st36"/>
+				</g>
+				<g id="shape1107-177" v:mID="1107" v:groupContext="shape" transform="translate(0.523319,-1.95484)">
+					<title>List.1107</title>
+					<path d="M0 325.58 A32.1279 30.0032 -180 0 0 13.08 332.3 L13.08 331.45 A35.5103 33.1619 0 0 1 0 324.73 L0 325.58
+								 Z" class="st37"/>
+				</g>
+				<g id="shape1108-179" v:mID="1108" v:groupContext="shape" transform="translate(0.523319,-0.122178)">
+					<title>List.1108</title>
+					<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3" class="st28"/>
+				</g>
+				<g id="shape1109-182" v:mID="1109" v:groupContext="shape" transform="translate(0.523319,0)">
+					<title>List.1109</title>
+					<path d="M13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 0 322.16" class="st38"/>
+				</g>
+			</g>
+			<g id="group1110-186" transform="translate(25.5118,0)" v:mID="1110" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="IsVisable" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<title>List.1110</title>
+				<g id="shape1111-187" v:mID="1111" v:groupContext="shape">
+					<title>List.1111</title>
+					<path d="M2.94 330.28 A19.3775 18.1451 -180 0 0 12.08 332.3 A6.26283 5.86453 0 0 0 15.02 331.57 a1.01538 0.950805
+								 -180 0 0 1.17949 0.181596 A4.1972 3.93027 -180 0 0 18.18 329.81 L18.18 324.29 A7.99564 7.48713 -180
+								 0 0 13.2 317.74 L4.99 317.2 A8.1563 7.63757 0 0 0 -0 323.88 L0.03 327.01 A2.77955 2.60278 -180 0
+								 0 1.07 329.07 A1.07039 1.00232 -180 0 0 2.25 329.26 A1.4324 1.34131 -180 0 0 2.94 330.28 Z"
+							class="st39"/>
+					<path d="M2.94 330.28 A19.3775 18.1451 -180 0 0 12.08 332.3 A6.26283 5.86453 0 0 0 15.02 331.57 a1.01538 0.950805
+								 -180 0 0 1.17949 0.181596 A4.1972 3.93027 -180 0 0 18.18 329.81 L18.18 324.29 A7.99564 7.48713 -180
+								 0 0 13.2 317.74M4.99 317.2 A8.1563 7.63757 0 0 0 -0 323.88 L0.03 327.01 A2.77955 2.60278 -180 0
+								 0 1.07 329.07 A1.07039 1.00232 -180 0 0 2.25 329.26 A1.4324 1.34131 -180 0 0 2.94 330.28"
+							class="st40"/>
+				</g>
+				<g id="shape1112-192" v:mID="1112" v:groupContext="shape" transform="translate(3.92036,-13.0756)">
+					<title>List.1112</title>
+					<ellipse cx="5.40741" cy="327.24" rx="5.40741" ry="5.06351" class="st41"/>
+				</g>
+				<g id="shape1113-195" v:mID="1113" v:groupContext="shape">
+					<title>List.1113</title>
+					<path d="M4.99 317.2 A8.3216 7.79236 0 0 0 0 323.88 L0.03 327.01 A2.77955 2.60278 -180 0 0 1.07 329.07 A1.07039
+								 1.00232 -180 0 0 2.25 329.26 A1.4324 1.34131 -180 0 0 2.94 330.28 A19.3775 18.1451 -180 0 0 12.08
+								 332.3 A6.26283 5.86453 0 0 0 15.02 331.57 a1.01538 0.950805 -180 0 0 1.17949 0.181596 A4.1972 3.93027
+								 -180 0 0 18.18 329.81 L18.18 324.8 A7.9159 7.41246 -180 0 0 13.2 317.74 L13.15 317.74 A5.40954 5.0655
+								 -180 1 0 4.99 317.2" class="st31"/>
+				</g>
+				<g id="shape1114-198" v:mID="1114" v:groupContext="shape" transform="translate(2.10795,-0.734187)">
+					<title>List.1114</title>
+					<path d="M0.15 329.99 A71.2708 33.4687 8.52 0 1 1.81 320.42" class="st42"/>
+					<path d="M12.92 332.3 A74.0414 34.6873 -3.83 0 0 12.13 322.17" class="st42"/>
+				</g>
+			</g>
+			<g id="shape1095-204" v:mID="1095" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="343.505" width="79.5" height="22.4037"/>
+				<text x="-8.88" y="347.11" class="st14" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Rex Scheduler</text>			</g>
+		</g>
+		<g id="group1115-206" transform="translate(204.746,-66.939)" v:mID="1115" v:groupContext="group">
+			<v:custProps>
+				<v:cp v:nameU="Manufacturer" v:lbl="Výrobce" v:type="0" v:sortKey="Equipment" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="ProductNumber" v:lbl="Číslo výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="PartNumber" v:lbl="Číslo součásti" v:type="0" v:sortKey="Equipment" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="ProductDescription" v:lbl="Popis výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="AssetNumber" v:lbl="Inventární číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="SerialNumber" v:lbl="Sériové číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Location" v:lbl="Umístění" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Building" v:lbl="Budova" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Room" v:lbl="Místnost" v:type="0" v:sortKey="Asset" v:invis="false" v:langID="1029"/>
+				<v:cp v:nameU="Department" v:lbl="Oddělení" v:langID="1029"/>
+				<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Vybavení)"/>
+				<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Server)"/>
+				<v:cp v:nameU="SubShapeType" v:lbl="SubShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+						v:val="VT4(Správa)"/>
+				<v:cp v:nameU="NetworkName" v:lbl="Síťový název" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="IPAddress" v:lbl="IP adresa" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="SubnetMask" v:lbl="Maska podsítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="AdminInterface" v:lbl="Rozhraní pro správu" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NumberofPorts" v:lbl="Počet portů" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="MACAddress" v:lbl="Adresa MAC" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="CommunityString" v:lbl="Řetězec komunity" v:type="0" v:sortKey="Network" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="NetworkDescription" v:lbl="Popis sítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="HardDriveSize" v:lbl="Kapacita pevného disku" v:type="0" v:sortKey="Workstation" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+				<v:cp v:nameU="CPU" v:lbl="Procesor" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="Memory" v:lbl="Paměť" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+						v:langID="1029"/>
+				<v:cp v:nameU="OperatingSystem" v:lbl="Operační systém" v:type="0" v:sortKey="Workstation" v:invis="false"
+						v:ask="false" v:langID="1029"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+				<v:ud v:nameU="SolSH" v:val="VT15({BF0433D9-CD73-4EB5-8390-8653BE590246}):41"/>
+				<v:ud v:nameU="ShapeClass" v:val="VT0(5):26"/>
+				<v:ud v:nameU="ShapeType" v:val="VT0(24):26"/>
+				<v:ud v:nameU="SubShapeType" v:val="VT0(42):26"/>
+				<v:ud v:nameU="visLegendShape" v:val="VT0(2):26"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="HasText" v:prompt="" v:val="VT0(1):5"/>
+			</v:userDefs>
+			<title>Server pro správu.1017.1115</title>
+			<desc>HPC-as-a-Service Middleware</desc>
+			<g id="shape1116-207" v:mID="1116" v:groupContext="shape" transform="translate(0,7.08661)">
+				<title>List.1116</title>
+				<path d="M45.27 314.79 L45.27 311.76 L51.02 308.66 L51.02 265.41 L31.4 254.9 L0 272.01 L0.01 315.94 A33.0369 30.8521
+							 -180 0 0 19.37 325.77 L19.96 325.4 L19.96 326.13 L30.9 332.3 L36 329.4 L36 327.77 L26 322.14 L28.07
+							 321.03 A24.926 24.3915 -180 0 0 38.51 326.77 L48.61 321.05 L48.61 316.7 L45.27 314.79 ZM8.71 278.85
+							 A34.0948 31.84 -180 0 0 19.37 282.64 A33.7139 31.4843 0 0 1 8.71 278.85 Z" class="st26"/>
+			</g>
+			<g id="shape1117-209" v:mID="1117" v:groupContext="shape" transform="translate(0,-43.1295)">
+				<title>List.1117</title>
+				<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3 L19.36 332.3 Z"
+						class="st27"/>
+				<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3" class="st28"/>
+			</g>
+			<g id="shape1118-213" v:mID="1118" v:groupContext="shape" transform="translate(0.0115937,0)">
+				<title>List.1118</title>
+				<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35 289.17
+							 L19.36 289.17 Z" class="st29"/>
+				<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35 289.17"
+						class="st28"/>
+			</g>
+			<g id="shape1119-217" v:mID="1119" v:groupContext="shape" transform="translate(19.3628,-0.0487457)">
+				<title>List.1119</title>
+				<path d="M0 289.22 L0 332.3 L31.66 315.25 L31.66 271.99 L0 289.22 Z" class="st30"/>
+			</g>
+			<g id="shape1120-220" v:mID="1120" v:groupContext="shape" transform="translate(3.19744E-14,-0.00156214)">
+				<title>List.1120</title>
+				<path d="M51.02 271.95 L31.4 261.44 L0 278.54 L0.01 322.48 A33.0369 30.8521 -180 0 0 19.37 332.3 L51.02 315.2 L51.02
+							 271.95" class="st31"/>
+			</g>
+			<g id="shape1121-223" v:mID="1121" v:groupContext="shape" transform="translate(-105.447,-2.74088) rotate(-20)">
+				<title>List.1121</title>
+				<ellipse cx="1.4821" cy="330.285" rx="1.4821" ry="2.01816" class="st32"/>
+			</g>
+			<g id="shape1122-226" v:mID="1122" v:groupContext="shape" transform="translate(3.13992,-6.23262)">
+				<title>List.1122</title>
+				<path d="M-0 320.33 A37.8205 34.5426 -96.44 0 0 13.08 327.05" class="st33"/>
+				<path d="M0 322.96 A37.8205 34.5426 -96.44 0 0 13.08 329.68" class="st33"/>
+				<path d="M0 325.58 A37.8205 34.5426 -96.44 0 0 13.08 332.3" class="st33"/>
+			</g>
+			<g id="group1123-232" transform="translate(2.6166,-30.546)" v:mID="1123" v:groupContext="group">
+				<title>List.1123</title>
+				<g id="shape1124-233" v:mID="1124" v:groupContext="shape" transform="translate(0,-7.06961)">
+					<title>List.1124</title>
+					<path d="M0.47 325.58 A32.9981 30.8159 -180 0 0 13.55 332.3 a0.670503 0.62616 -180 0 0 3.01981E-14 -1.22178 A32.1003
+								 29.9774 0 0 1 0.73 324.56 a0.434387 0.40566 -180 0 0 -0.725202 0.344859 a0.946727 0.884117 -180
+								 0 0 0.463543 0.681433 Z" class="st34"/>
+				</g>
+				<g id="shape1125-235" v:mID="1125" v:groupContext="shape" transform="translate(4.16081,-8.60965)">
+					<title>List.1125</title>
+					<path d="M4.02 332.25 A4.90309 2.98481 -90.9 0 0 0.1 330.3 A3.22599 1.60837 -180 0 0 4.02 332.25 Z"
+							class="st35"/>
+				</g>
+				<g id="shape1126-238" v:mID="1126" v:groupContext="shape" transform="translate(0.523319,-0.0610888)">
+					<title>List.1126</title>
+					<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 -0 322.16
+								 Z" class="st36"/>
+				</g>
+				<g id="shape1127-241" v:mID="1127" v:groupContext="shape" transform="translate(0.523319,-1.95484)">
+					<title>List.1127</title>
+					<path d="M0 325.58 A32.1279 30.0032 -180 0 0 13.08 332.3 L13.08 331.45 A35.5103 33.1619 0 0 1 0 324.73 L0 325.58
+								 Z" class="st37"/>
+				</g>
+				<g id="shape1128-243" v:mID="1128" v:groupContext="shape" transform="translate(0.523319,-0.122178)">
+					<title>List.1128</title>
+					<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3" class="st28"/>
+				</g>
+				<g id="shape1129-246" v:mID="1129" v:groupContext="shape" transform="translate(0.523319,0)">
+					<title>List.1129</title>
+					<path d="M13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 0 322.16" class="st38"/>
+				</g>
+			</g>
+			<g id="group1130-250" transform="translate(19.9648,7.08661)" v:mID="1130" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="IsVisable" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<title>List.1130</title>
+				<g id="shape1131-251" v:mID="1131" v:groupContext="shape" transform="translate(10.9392,-0.552402)">
+					<title>List.1131</title>
+					<path d="M0 332.3 L0 331.04 L5.1 327.77 L5.1 329.4 L0 332.3 Z" class="st43"/>
+				</g>
+				<g id="shape1132-257" v:mID="1132" v:groupContext="shape" transform="translate(6.99441E-15,-1.81089)">
+					<title>List.1132</title>
+					<path d="M0 326.12 L4.91 322.77 L16.04 329.03 L10.94 332.3 L0 326.12 Z" class="st44"/>
+				</g>
+				<g id="shape1133-261" v:mID="1133" v:groupContext="shape" transform="translate(7.7409,-10.4468)">
+					<title>List.1133</title>
+					<path d="M10.8 332.3 L20.91 326.59 L10.06 320.43 L0 326.23 A25.4891 24.9425 -180 0 0 10.8 332.3 Z" class="st44"/>
+				</g>
+				<g id="shape1134-264" v:mID="1134" v:groupContext="shape" transform="translate(19.2827,-12.1642)">
+					<title>List.1134</title>
+					<path d="M0 332.3 L0 322.14 L2.12 320.93 L2.04 330.58 L0 332.3 Z" class="st43"/>
+				</g>
+				<g id="shape1135-267" v:mID="1135" v:groupContext="shape" transform="translate(21.3222,-14.8858)">
+					<title>List.1135</title>
+					<path d="M0.08 324.61 L3.99 323.14 L3.99 329.13 L0 332.3 L0.08 324.61 Z" class="st43"/>
+				</g>
+				<g id="shape1136-270" v:mID="1136" v:groupContext="shape" transform="translate(15.0183,-22.5824)">
+					<title>List.1136</title>
+					<path d="M6.38 332.3 L6.39 331.35 L0 327.75 L3.24 326.85 L10.29 330.84 L6.38 332.3 Z" class="st44"/>
+				</g>
+				<g id="shape1137-273" v:mID="1137" v:groupContext="shape" transform="translate(18.5411,-6.08616)">
+					<title>List.1137</title>
+					<path d="M0 327.94 L10.1 322.23 L10.1 326.59 L0 332.3 L0 327.94 Z" class="st43"/>
+				</g>
+				<g id="shape1138-276" v:mID="1138" v:groupContext="shape" transform="translate(10.1976,-22.3246)">
+					<title>List.1138</title>
+					<path d="M0 327.22 L2.6 326.23 L4.83 327.5 L11.21 331.1 L9.09 332.3 A25.4396 24.894 0 0 1 -0 327.22 Z"
+							class="st44"/>
+				</g>
+				<g id="shape1139-279" v:mID="1139" v:groupContext="shape" transform="translate(4.996E-15,-0.552402)">
+					<title>List.1139</title>
+					<path d="M0 324.86 L10.94 331.04 L10.94 332.3 L0 326.13 L0 324.86 Z" class="st45"/>
+				</g>
+				<g id="group1140-285" transform="translate(1.19132,-2.45773)" v:mID="1140" v:groupContext="group">
+					<title>List.1140</title>
+					<g id="shape1141-286" v:mID="1141" v:groupContext="shape" transform="translate(-9.99201E-16,-0.185692)">
+						<title>List.1141</title>
+						<path d="M0 326.6 L0.8 327.07 L1.47 326.64 L0.67 326.18 L0 326.6 ZM0.99 325.95 L1.8 326.42 L2.46 325.99 L1.66
+									 325.53 L0.99 325.95 ZM1.99 325.3 L2.79 325.77 L3.46 325.34 L2.65 324.88 L1.99 325.3 ZM2.98 324.65
+									 L3.78 325.12 L4.45 324.69 L3.65 324.23 L2.98 324.65 ZM4.47 325.53 L5.27 325.99 L5.94 325.56
+									 L5.14 325.1 L4.47 325.53 ZM5.96 326.4 L6.76 326.86 L7.43 326.44 L6.63 325.97 L5.96 326.4 ZM7.45
+									 327.27 L8.25 327.74 L8.92 327.31 L8.12 326.84 L7.45 327.27 ZM10.43 329.02 L11.23 329.48 L11.9
+									 329.05 L11.1 328.59 L10.43 329.02 ZM11.92 329.89 L12.72 330.35 L13.39 329.93 L12.59 329.46 L11.92
+									 329.89 ZM10.92 330.54 L11.73 331 L12.39 330.58 L11.59 330.11 L10.92 330.54 ZM9.43 329.67 L10.24
+									 330.13 L10.9 329.7 L10.1 329.24 L9.43 329.67 ZM8.94 328.14 L9.74 328.61 L10.41 328.18 L9.61
+									 327.72 L8.94 328.14 ZM7.94 328.79 L8.75 329.26 L9.42 328.83 L8.61 328.37 L7.94 328.79 ZM6.46
+									 327.92 L7.26 328.39 L7.93 327.96 L7.12 327.49 L6.46 327.92 ZM4.97 327.05 L5.77 327.51 L6.44
+									 327.09 L5.63 326.62 L4.97 327.05 ZM3.48 326.18 L4.28 326.64 L4.95 326.21 L4.14 325.75 L3.48
+									 326.18 ZM2.48 326.83 L3.28 327.29 L3.95 326.86 L3.15 326.4 L2.48 326.83 ZM3.97 327.7 L4.77 328.16
+									 L5.44 327.74 L4.64 327.27 L3.97 327.7 ZM5.46 328.57 L6.26 329.04 L6.93 328.61 L6.13 328.14 L5.46
+									 328.57 ZM6.95 329.44 L7.75 329.91 L8.42 329.48 L7.62 329.02 L6.95 329.44 ZM8.44 330.32 L9.24
+									 330.78 L9.91 330.35 L9.11 329.89 L8.44 330.32 ZM9.93 331.19 L10.73 331.65 L11.4 331.23 L10.6
+									 330.76 L9.93 331.19 ZM8.94 331.84 L9.74 332.3 L10.41 331.88 L9.61 331.41 L8.94 331.84 ZM7.45
+									 330.97 L8.25 331.43 L8.92 331 L8.12 330.54 L7.45 330.97 ZM2.98 328.35 L6.76 330.56 L7.43 330.13
+									 L3.65 327.92 L2.98 328.35 ZM1.49 327.48 L2.29 327.94 L2.96 327.51 L2.16 327.05 L1.49 327.48
+									 Z" class="st46"/>
+					</g>
+					<g id="shape1142-288" v:mID="1142" v:groupContext="shape" transform="translate(0.000315055,0)">
+						<title>List.1142</title>
+						<path d="M2.98 324.65 L3.78 325.12 L3.78 324.93 L2.98 324.47 L2.98 324.65 ZM4.47 325.53 L5.27 325.99 L5.27
+									 325.8 L4.47 325.34 L4.47 325.53 ZM5.96 326.4 L6.76 326.86 L6.76 326.68 L5.96 326.21 L5.96 326.4
+									 ZM7.45 327.27 L8.25 327.74 L8.25 327.55 L7.45 327.09 L7.45 327.27 ZM8.94 328.14 L9.74 328.61
+									 L9.74 328.42 L8.94 327.96 L8.94 328.14 ZM10.43 329.02 L11.23 329.48 L11.23 329.3 L10.43 328.83
+									 L10.43 329.02 ZM3.78 324.93 L3.78 325.12 L4.45 324.69 L4.45 324.5 L3.78 324.93 ZM5.27 325.8
+									 L5.27 325.99 L5.94 325.56 L5.94 325.38 L5.27 325.8 ZM6.76 326.68 L6.76 326.86 L7.43 326.44 L7.43
+									 326.25 L6.76 326.68 ZM8.25 327.55 L8.25 327.74 L8.92 327.31 L8.92 327.12 L8.25 327.55 ZM9.74
+									 328.42 L9.74 328.61 L10.41 328.18 L10.41 328 L9.74 328.42 ZM11.23 329.29 L11.23 329.48 L11.9
+									 329.05 L11.9 328.87 L11.23 329.29 ZM11.92 329.89 L12.72 330.35 L12.72 330.17 L11.92 329.7 L11.92
+									 329.89 ZM12.72 330.17 L12.72 330.35 L13.39 329.93 L13.39 329.74 L12.72 330.17 ZM1.99 325.3 L2.79
+									 325.77 L2.79 325.58 L1.99 325.12 L1.99 325.3 ZM3.48 326.18 L4.28 326.64 L4.28 326.45 L3.48 325.99
+									 L3.48 326.18 ZM4.97 327.05 L5.77 327.51 L5.77 327.33 L4.97 326.86 L4.97 327.05 ZM6.45 327.92
+									 L7.26 328.39 L7.26 328.2 L6.45 327.74 L6.45 327.92 ZM7.94 328.79 L8.75 329.26 L8.75 329.07 L7.94
+									 328.61 L7.94 328.79 ZM9.43 329.67 L10.24 330.13 L10.24 329.95 L9.43 329.48 L9.43 329.67 ZM2.79
+									 325.58 L2.79 325.77 L3.46 325.34 L3.46 325.15 L2.79 325.58 ZM4.28 326.45 L4.28 326.64 L4.95
+									 326.21 L4.95 326.03 L4.28 326.45 ZM5.77 327.33 L5.77 327.51 L6.44 327.09 L6.44 326.9 L5.77 327.33
+									 ZM7.26 328.2 L7.26 328.39 L7.93 327.96 L7.93 327.77 L7.26 328.2 ZM8.75 329.07 L8.75 329.26 L9.41
+									 328.83 L9.41 328.65 L8.75 329.07 ZM10.24 329.94 L10.24 330.13 L10.9 329.7 L10.9 329.52 L10.24
+									 329.94 ZM10.92 330.54 L11.73 331 L11.73 330.82 L10.92 330.35 L10.92 330.54 ZM11.73 330.82 L11.73
+									 331 L12.39 330.58 L12.39 330.39 L11.73 330.82 ZM0.99 325.95 L1.8 326.42 L1.8 326.23 L0.99 325.77
+									 L0.99 325.95 ZM2.48 326.83 L3.28 327.29 L3.28 327.1 L2.48 326.64 L2.48 326.83 ZM3.97 327.7 L4.77
+									 328.16 L4.77 327.98 L3.97 327.51 L3.97 327.7 ZM5.46 328.57 L6.26 329.04 L6.26 328.85 L5.46 328.39
+									 L5.46 328.57 ZM6.95 329.44 L7.75 329.91 L7.75 329.72 L6.95 329.26 L6.95 329.44 ZM8.44 330.32
+									 L9.24 330.78 L9.24 330.6 L8.44 330.13 L8.44 330.32 ZM1.79 326.23 L1.79 326.42 L2.46 325.99 L2.46
+									 325.8 L1.79 326.23 ZM3.28 327.1 L3.28 327.29 L3.95 326.86 L3.95 326.68 L3.28 327.1 ZM4.77 327.98
+									 L4.77 328.16 L5.44 327.74 L5.44 327.55 L4.77 327.98 ZM6.26 328.85 L6.26 329.04 L6.93 328.61
+									 L6.93 328.42 L6.26 328.85 ZM7.75 329.72 L7.75 329.91 L8.42 329.48 L8.42 329.3 L7.75 329.72 ZM9.24
+									 330.59 L9.24 330.78 L9.91 330.35 L9.91 330.17 L9.24 330.59 ZM9.93 331.19 L10.73 331.65 L10.73
+									 331.47 L9.93 331 L9.93 331.19 ZM10.73 331.47 L10.73 331.65 L11.4 331.23 L11.4 331.04 L10.73
+									 331.47 ZM0 326.6 L0.8 327.07 L0.8 326.88 L0 326.42 L0 326.6 ZM1.49 327.48 L2.29 327.94 L2.29
+									 327.75 L1.49 327.29 L1.49 327.48 ZM2.98 328.35 L6.76 330.56 L6.76 330.37 L2.98 328.16 L2.98
+									 328.35 ZM7.45 330.97 L8.25 331.43 L8.25 331.25 L7.45 330.78 L7.45 330.97 ZM0.8 326.88 L0.8 327.07
+									 L1.47 326.64 L1.47 326.45 L0.8 326.88 ZM2.29 327.75 L2.29 327.94 L2.96 327.51 L2.96 327.33 L2.29
+									 327.75 ZM6.76 330.37 L6.76 330.56 L7.43 330.13 L7.43 329.95 L6.76 330.37 ZM8.25 331.24 L8.25
+									 331.43 L8.92 331 L8.92 330.82 L8.25 331.24 ZM8.94 331.84 L9.74 332.3 L9.74 332.12 L8.94 331.65
+									 L8.94 331.84 ZM9.74 332.12 L9.74 332.3 L10.41 331.88 L10.41 331.69 L9.74 332.12 Z"
+								class="st47"/>
+					</g>
+				</g>
+				<g id="shape1143-290" v:mID="1143" v:groupContext="shape" transform="translate(26.2861,-11.797)">
+					<title>List.1143</title>
+					<path d="M0.67 329.65 L1.17 329.37 a0.0634699 0.0634699 0 0 1 0.0946903 0.0552604 L1.27 331.59 a0.0634699 0.0634699
+								 0 0 1 -0.0322494 0.0552604 L0.73 331.94 a0.0634699 0.0634699 0 0 1 -0.0946903 -0.0552604 L0.64 329.71
+								 a0.0634699 0.0634699 0 0 1 0.0322494 -0.0552604 ZM0.03 330.01 L0.33 329.85 a0.0634699 0.0634699
+								 0 0 1 0.0946903 0.0552604 L0.42 332.07 a0.0634699 0.0634699 0 0 1 -0.0322494 0.0552604 L0.09 332.3
+								 a0.0634699 0.0634699 0 0 1 -0.0946903 -0.0552604 L0 330.07 a0.0634699 0.0634699 0 0 1 0.0322494
+								 -0.0552604 Z" class="st48"/>
+				</g>
+				<g id="shape1144-293" v:mID="1144" v:groupContext="shape" transform="translate(7.7409,-6.08616)">
+					<title>List.1144</title>
+					<path d="M11.54 326.23 A20.653 20.2101 0 0 1 2.46 321.24 L2.46 310.98 A25.0307 24.494 -180 0 0 11.54 316.06 L11.54
+								 326.23 ZM-0 326.23 A24.926 24.3915 -180 0 0 10.8 332.3 L10.8 327.94 A25.0828 24.5449 0 0 1 0 321.87
+								 L0 326.23 Z" class="st49"/>
+					<path d="M11.54 326.23 A20.653 20.2101 0 0 1 2.46 321.24 L2.46 310.98 A25.0307 24.494 -180 0 0 11.54 316.06 L11.54
+								 326.23" class="st50"/>
+					<path d="M0.79 323.69 A14.7301 14.4142 -180 0 0 3.2 325.59" class="st50"/>
+					<path d="M0.79 324.32 A14.7301 14.4142 -180 0 0 3.2 326.23" class="st50"/>
+					<path d="M0.79 324.96 A14.7301 14.4142 -180 0 0 3.2 326.86" class="st50"/>
+					<path d="M0.79 325.59 A14.7301 14.4142 -180 0 0 3.2 327.5" class="st50"/>
+					<path d="M9.5 312.02 L13.77 314.43" class="st50"/>
+					<path d="M10.06 311.87 L14.32 314.28" class="st50"/>
+					<path d="M10.61 311.72 L14.88 314.13" class="st50"/>
+					<path d="M11.17 311.57 L15.44 313.98" class="st50"/>
+					<path d="M-0 326.23 A24.926 24.3915 -180 0 0 10.8 332.3 L10.8 327.94 A25.0828 24.5449 0 0 1 0 321.87 L0 326.23"
+							class="st50"/>
+				</g>
+				<g id="shape1145-306" v:mID="1145" v:groupContext="shape" transform="translate(11.3101,-13.9947)">
+					<title>List.1145</title>
+					<path d="M0 321.16 L0 328.51 A21.2206 20.7656 -179.97 0 0 6.58 332.3" class="st51"/>
+				</g>
+				<g id="shape1146-310" v:mID="1146" v:groupContext="shape" transform="translate(0,-0.552402)">
+					<title>List.1146</title>
+					<path d="M18.54 326.77 L28.65 321.05 L28.65 316.7 L25.31 314.79 L25.31 308.81 L18.26 304.82 L15.02 305.72 L12.79
+								 304.45 L10.2 305.45 L10.2 314.98 L7.74 316.34 L7.74 320.69 A25.3552 24.8115 0 0 0 18.54 326.77 ZM0
+								 324.86 L4.91 321.51 L16.04 327.77 L16.04 329.4 L10.94 332.3 L0 326.13 L0 324.86 Z" class="st52"/>
+				</g>
+				<g id="group1147-312" transform="translate(13.4423,-7.62836)" v:mID="1147" v:groupContext="group">
+					<title>List.1147</title>
+					<g id="shape1148-313" v:mID="1148" v:groupContext="shape" transform="translate(0.898476,0)">
+						<title>List.1148</title>
+						<path d="M0.31 330.4 L3.46 331.62 a0.365429 0.357592 180 0 1 -0.0927054 0.680381 L0.31 331.12 a0.377526 0.36943
+									 0 0 1 -5.32907E-15 -0.725739 Z" class="st53"/>
+					</g>
+					<g id="shape1149-316" v:mID="1149" v:groupContext="shape" transform="translate(0,-1.27004)">
+						<title>List.1149</title>
+						<path d="M0 329.58 L4.54 331.4 L4.54 332.3 L0 330.58 L0 329.58 Z" class="st54"/>
+						<path d="M0 329.58 L4.54 331.4 L4.54 332.3" class="st50"/>
+						<path d="" class="st50"/>
+						<path d="" class="st50"/>
+						<path d="M0 329.94 L4.54 331.76" class="st50"/>
+					</g>
+					<g id="shape1150-322" v:mID="1150" v:groupContext="shape" transform="translate(0,-1.27004)">
+						<title>List.1150</title>
+						<path d="M0 329.58 L0 330.58 L4.54 332.3" class="st51"/>
+					</g>
+				</g>
+				<g id="shape1151-326" v:mID="1151" v:groupContext="shape" transform="translate(-149.23,31.4909) rotate(-30)">
+					<title>List.1151</title>
+					<ellipse cx="0.308731" cy="331.896" rx="0.308731" ry="0.407204" class="st55"/>
+				</g>
+				<g id="shape1152-330" v:mID="1152" v:groupContext="shape" transform="translate(11.3101,-13.9947)">
+					<title>List.1152</title>
+					<path d="M0.28 328.34 L0.28 321.43 L0 321.16 A16.0059 15.6627 -179.86 0 0 6.58 324.97 L6.58 332.3 L6.58 331.98
+								 A20.2194 19.7856 179.56 0 1 0.28 328.34 Z" class="st56"/>
+				</g>
+			</g>
+			<g id="shape1115-338" v:mID="1115" v:groupContext="groupContent">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="25.5118" cy="350.705" width="92.89" height="36.8038"/>
+				<text x="-15.57" y="347.11" class="st14" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>HPC-as-a-Service<v:newlineChar/><tspan
+							x="-3.9" dy="1.2em" class="st57">Middleware</tspan></text>			</g>
+		</g>
+		<g id="group1153-341" transform="translate(428.02,-68.3563)" v:mID="1153" v:groupContext="group">
+			<title>List.1153</title>
+			<g id="group1080-342" v:mID="1080" v:groupContext="group">
+				<v:custProps>
+					<v:cp v:nameU="Manufacturer" v:lbl="Výrobce" v:type="0" v:sortKey="Equipment" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="ProductNumber" v:lbl="Číslo výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="PartNumber" v:lbl="Číslo součásti" v:type="0" v:sortKey="Equipment" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="ProductDescription" v:lbl="Popis výrobku" v:type="0" v:sortKey="Equipment" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="AssetNumber" v:lbl="Inventární číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="SerialNumber" v:lbl="Sériové číslo" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="Location" v:lbl="Umístění" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="Building" v:lbl="Budova" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="Room" v:lbl="Místnost" v:type="0" v:sortKey="Asset" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="Department" v:lbl="Oddělení" v:type="0" v:invis="false" v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="NetworkName" v:lbl="Síťový název" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="IPAddress" v:lbl="IP adresa" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="SubnetMask" v:lbl="Maska podsítě" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="AdminInterface" v:lbl="Rozhraní pro správu" v:type="0" v:sortKey="Network" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="NumberofPorts" v:lbl="Počet portů" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="CommunityString" v:lbl="Řetězec komunity" v:type="0" v:sortKey="Network" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="NetworkDescription" v:lbl="Popis sítě" v:type="0" v:sortKey="Network" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="CPU" v:lbl="Procesor" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="Memory" v:lbl="Paměť" v:type="0" v:sortKey="Workstation" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="OperatingSystem" v:lbl="Operační systém" v:type="0" v:sortKey="Workstation" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="BelongsTo" v:lbl="Patří" v:type="0" v:invis="true" v:ask="false" v:langID="1029"/>
+					<v:cp v:nameU="ShapeClass" v:lbl="ShapeClass" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+							v:val="VT4(Vybavení)"/>
+					<v:cp v:nameU="ShapeType" v:lbl="ShapeType" v:type="0" v:invis="true" v:ask="false" v:langID="1029"
+							v:val="VT4(Server)"/>
+					<v:cp v:nameU="MACAddress" v:lbl="Adresa MAC" v:type="0" v:sortKey="Network" v:invis="false" v:ask="false"
+							v:langID="1029"/>
+					<v:cp v:nameU="HardDriveSize" v:lbl="Kapacita pevného disku" v:type="0" v:sortKey="Workstation" v:invis="false"
+							v:ask="false" v:langID="1029"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="HasText" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShapeClass" v:val="VT0(5):26"/>
+					<v:ud v:nameU="ShapeType" v:val="VT0(24):26"/>
+					<v:ud v:nameU="SolSH" v:val="VT15({BF0433D9-CD73-4EB5-8390-8653BE590246}):41"/>
+					<v:ud v:nameU="visLegendShape" v:val="VT0(2):26"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="HasText" v:prompt="" v:val="VT0(1):5"/>
+				</v:userDefs>
+				<title>Server.1080</title>
+				<desc>HPC Scheduler</desc>
+				<g id="shape1081-343" v:mID="1081" v:groupContext="shape">
+					<title>List.1081</title>
+					<path d="M51.02 271.95 L31.4 261.44 L0 278.54 L0.01 322.48 A33.0369 30.8521 -180 0 0 19.37 332.3 L51.02 315.2
+								 L51.02 271.95 ZM8.71 285.39 A34.0948 31.84 -180 0 0 19.37 289.17 A33.7139 31.4843 0 0 1 8.71 285.39
+								 Z" class="st26"/>
+				</g>
+				<g id="shape1082-345" v:mID="1082" v:groupContext="shape" transform="translate(0,-43.1295)">
+					<title>List.1082</title>
+					<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3 L19.36 332.3 Z"
+							class="st27"/>
+					<path d="M19.36 332.3 L51.02 315.08 L31.4 304.57 L0 321.67 A34.0948 31.84 -180 0 0 19.37 332.3" class="st28"/>
+				</g>
+				<g id="shape1083-349" v:mID="1083" v:groupContext="shape" transform="translate(0.0115937,-3.41061E-13)">
+					<title>List.1083</title>
+					<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35
+								 289.17 L19.36 289.17 Z" class="st29"/>
+					<path d="M19.36 289.17 A33.7139 31.4843 0 0 1 0 278.49 L0 322.48 A33.0369 30.8521 -180 0 0 19.36 332.3 L19.35
+								 289.17" class="st58"/>
+				</g>
+				<g id="shape1084-353" v:mID="1084" v:groupContext="shape" transform="translate(19.3628,-0.0487457)">
+					<title>List.1084</title>
+					<path d="M0 289.22 L0 332.3 L31.66 315.25 L31.66 271.99 L0 289.22 Z" class="st30"/>
+				</g>
+				<g id="shape1085-356" v:mID="1085" v:groupContext="shape" transform="translate(0,-0.00156214)">
+					<title>List.1085</title>
+					<path d="M51.02 271.95 L31.4 261.44 L0 278.54 L0.01 322.48 A33.0369 30.8521 -180 0 0 19.37 332.3 L51.02 315.2
+								 L51.02 271.95" class="st13"/>
+				</g>
+				<g id="shape1086-359" v:mID="1086" v:groupContext="shape" transform="translate(-105.447,-2.74088) rotate(-20)">
+					<title>List.1086</title>
+					<ellipse cx="1.4821" cy="330.285" rx="1.4821" ry="2.01816" class="st32"/>
+				</g>
+				<g id="shape1087-362" v:mID="1087" v:groupContext="shape" transform="translate(3.13992,-6.23262)">
+					<title>List.1087</title>
+					<path d="M0 320.33 A37.8205 34.5426 -96.44 0 0 13.08 327.05" class="st33"/>
+					<path d="M0 322.96 A37.8205 34.5426 -96.44 0 0 13.08 329.68" class="st33"/>
+					<path d="M0 325.58 A37.8205 34.5426 -96.44 0 0 13.08 332.3" class="st33"/>
+				</g>
+				<g id="group1088-368" transform="translate(2.6166,-30.546)" v:mID="1088" v:groupContext="group">
+					<title>List.1088</title>
+					<g id="shape1089-369" v:mID="1089" v:groupContext="shape" transform="translate(0,-7.06961)">
+						<title>List.1089</title>
+						<path d="M0.47 325.58 A32.9981 30.8159 -180 0 0 13.55 332.3 a0.670503 0.62616 -180 0 0 1.77636E-15 -1.22178
+									 A32.1003 29.9774 0 0 1 0.73 324.56 a0.434387 0.40566 -180 0 0 -0.725202 0.344859 a0.946727 0.884117
+									 -180 0 0 0.463543 0.681433 Z" class="st34"/>
+					</g>
+					<g id="shape1090-371" v:mID="1090" v:groupContext="shape" transform="translate(4.16081,-8.60965)">
+						<title>List.1090</title>
+						<path d="M4.02 332.25 A4.90309 2.98481 -90.9 0 0 0.1 330.3 A3.22599 1.60837 -180 0 0 4.02 332.25 Z"
+								class="st35"/>
+					</g>
+					<g id="shape1091-374" v:mID="1091" v:groupContext="shape" transform="translate(0.523319,-0.0610888)">
+						<title>List.1091</title>
+						<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 -0
+									 322.16 Z" class="st36"/>
+					</g>
+					<g id="shape1092-377" v:mID="1092" v:groupContext="shape" transform="translate(0.523319,-1.95484)">
+						<title>List.1092</title>
+						<path d="M0 325.58 A32.1279 30.0032 -180 0 0 13.08 332.3 L13.08 331.45 A35.5103 33.1619 0 0 1 0 324.73 L0
+									 325.58 Z" class="st37"/>
+					</g>
+					<g id="shape1093-379" v:mID="1093" v:groupContext="shape" transform="translate(0.523319,-0.122178)">
+						<title>List.1093</title>
+						<path d="M0 322.16 L0 325.58 A35.496 33.1485 -180 0 0 13.08 332.3" class="st28"/>
+					</g>
+					<g id="shape1094-382" v:mID="1094" v:groupContext="shape" transform="translate(0.523319,1.13687E-13)">
+						<title>List.1094</title>
+						<path d="M13.08 332.3 L13.08 328.88 A36.6577 34.2334 0 0 1 -0 322.16" class="st38"/>
+					</g>
+				</g>
+				<g id="shape1080-386" v:mID="1080" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="25.5118" cy="343.505" width="81.89" height="22.4037"/>
+					<text x="-10.07" y="347.11" class="st14" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>HPC Scheduler</text>				</g>
+			</g>
+			<g id="shape1-388" v:mID="1" v:groupContext="shape" transform="translate(51.0236,-7.7152) scale(-1,1)">
+				<title>List.1</title>
+				<rect v:rectContext="foreign" x="0" y="316.845" width="31.1811" height="15.458" class="st25"/>
+				<image x="0" y="316.845" width="31.1811" height="15.458" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+							iVBORw0KGgoAAAANSUhEUgAABLAAAAH0CAYAAAAt0NQSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMA
+							AA7DAcdvqGQAAG2hSURBVHhe7d11fB1V3sfxuDZJ09TdJXWJFHd3t7LAQllkceguD1qs2OIOxd0dWmyBUmgLlEJbWGBZw91L7Tzf
+							M5tmb9Jfkps0cu/M5/N6vf8pu2nuzNy595zOnEkhingZ0lmGydqyrewnx8hZcpXcK8/JvBhvy4cxPpdvGuEz8f8//3P8z3tWnpJ7
+							5Fa5Ri6Uk+WPsq9sJ+vJKOkthUJERERERERERElcmnSXibKbHCeXyEPyhnwpLsktkf+Ifz1PyM1ygfjX6ie9tpBSyRMiIiIiIiIi
+							ImqjuskmcqRcK3+Vv8tvYk36RJWfsHtdHpSL5WjZWfwVXTlCRERERERERERrWEfZQA4Vf2ufn6j6WqzJGjTOCvlI/G2M/io1v403
+							ll5CRERERERERERG/pY3v97TFPG3/H0q1sQLWt638oL4ia39ZaxkCRERERERERFRpOore8qlMleWiTWZgsSwVOaLX3PL37rp1xnL
+							FiIiIiIiIiKi0DRE/NP17pdPxJokQXLxk1pz5DKZJIMlVYiIiIiIiIiIkqIOsqtcJ/8UawIkYeTnprmeXbPcqCF5boPyQrfjph3c
+							73fp7Cbv1sX9YY8ubspBPQKnHNbTTTu2d+Dyk/u5a6b2N10wpU/1/8479fCewf//qN91C37m/jt1drtuUeJ20t+zyVpFbuOJRW78
+							8HzXv1eOKy7McKmp9u+ZBL6Rx+VY8bce+idDEhERERERERElRBmyrpwhr8pysSY4Wk12Vpob2DsnmBzyE0anHd7L3TRtoHvkqqHu
+							5TtGuIWPjXGfvjzBLVlQ4dy7ExPOd3PL3T+eG+fefHCUe/6W4e7By4e4K0/tH7yOw/buGkx+rTO+wA3pl+uKCtLNbZAAvpJ75RDx
+							V+EREREREREREbVq+bK7+AmK78WawGhRXTtmBlcwHbpXV3fucX3cnRcOcq/cNcJ9/OJ4t3KxPTEUVr++VeHee2qsmzG91F13xgB3
+							0iE93aTtOwWTXL26Zbn09FRzG7ay/8h02VkKhIiIiIiIiIio2Vs1aXWf/CLWJEWz61ic4Tas+O9E1VWn9Xd/vXW4+/q1MnMiB7al
+							71QGE1yPXj3UXTilrzt49y5uo8qi4NZJa5u3gt9khvhF4QcIEREREREREVGTa9VJq97dst3uW5W4i/7c1z17U6n7fNYEc0IGzeen
+							NyvcGw+McrecO9Add0D34Kq2Th0yzf3TghbJebKWsBg8ERERERERETVYluwkLTpp5RdPX7+sMFjg3K/x9MlL480JFrQNfyvmE9cO
+							c+cc09vtsXXHYJF5az+2gH/JhVIhTGYRERERERERUY2GyfnyuVgTC2ukc0mm23vbjsFi5H5x8mULK82JEySuz2ZNcA9dMcT9aXKP
+							YPLRT0Ja+7oZfST+yqwJQkREREREREQRzd8iuJ+8LNYEQpNlZqQGkxxnH9Pbvf7AKLdikT0pguTlJyH9vr385H5u581KXEn7DPNY
+							aCYfyEnSXYiIiIiIiIgo5PnbsjaRe+RXsSYLGi01NcWNH54f3BI4c3pp8GQ8a9ID4fbhzLHumqn93a5btNiE1gqZKbuKv92ViIiI
+							iIiIiEJUthwkC8SaGGg0P2m11tiCYNH1D2aMNSc0EF3+6Ycv3zHCnXp4z2By0x8v1nG0Bv4tp0tvISIiIiIiIqIkrr38ST4VaxKg
+							UdLSUtza4wrcxSf2df9+gYXXET+/MLy/OmvbDYtdXk6zrp/lr8p6TDYTFn4nIiIiIiIiSqJ6ygXyg1iD/rj5Sat1xhe4S/6vr/vP
+							X5m0wpr7ZX6Fe/Tqoe7g3bu4rh0zzeOuiRbLIeLXdyMiIiIiIiKiBG243Ci/iTXAj9vY0nwmrdDili+sdM/fMtwdtnfX5pzM+lb8
+							BG4/ISIiIiIiIqIEaW15VFaKNaCPS1FBujtkzy7B0+WsyQagJfmnVb5w63B3+N5dXbdOWeYx2kjL5QEpEyIiIiIiIiJqoybIk2IN
+							3uPiF9der6zQ3TxtYHBrlzWxALQ2P5n17E2lbq9tOrqc7GZZM+txqRQiIiIiIiIiaqX8xNVMsQbqcenXM9tNO7Y3twgi4f3wenmw
+							ALx/gIB1LDfSy7KtEBEREREREVELNVBuE//kNWtw3qBxpfnuzgsHuaXvVJqTBUAie+WuEW7/nTq7/Nw1viprhqwjRERERERERNRM
+							9ZbrZJlYg/F6+dsEN1+nvXvmxlJzUgBINt/NLXcXTOnj+vbINo/5RvC34I4SIiIiIiIiImpiHeQSWSLW4LtemRmpbp/tOrn5D7Eo
+							O8LJP8Xw3ksGr+nthf6KxpuklxARERERERFRnKXLkfKtWAPuenUoynCnHt7TfT5rgjnoB8LovafGuiMmdXN5OU2+vXCpXCNdhIiI
+							iIiIiIjqaby8KtYAu15FBelu6hG93LdzyswBPhAF/35hfDCRldv0iayv5BjJFiIiIiIiIiKKyV/1cYusFGtQXSc/ceWfKPjjG+Xm
+							gB6Iou/nlQfvi+LCDPN9E4e/y1ZCREREREREFPmafLugv8JkykE93FevcsUVUJcfXi93F5/Y13UpyTTfR3F4VPyDFIiIiIiIiIgi
+							2TiZLdaguU5paSlu0vad3N+fGWcO2AGs7ps5Ze60w3u5gvx0833VAD/BfIikCREREREREVEkyhe/WHSjbhdMT091k3fr4v7xHBNX
+							QFP5iSx/5WJOdpPWyHpLJgoRERERERFRqPNXXb0t1uC4TmOG5buXbh9hDsgBNN67T45xO2zSwXy/NWC5nCs5QkRERERERBSq/GD3
+							Elkh1qDY5NftuXnaQLdysT0IB7Bm5t430m1YUWS+/xrgF3nfQIiIiIiIiIhC0Uh5Q6xBsMmvc3Xgrp3dl7NZoB1oaX6C+M4LB7nu
+							nbPM92M9lskZkiVERERERERESVm2TBM/yLUGv6ZN1ypyi58YYw60AbScX+ZXuFMP7+mysxq9PtYHsq4QERERERERJVVD5TWxBrum
+							Th0y3XVnDHArFtmDawCt440HRrmK0e3M92k9lsrJki5ERERERERECd++8pNYg1zTPtt1Cp6OZg2mAbQ+P5F81Wn9XXFhhvmercfz
+							0k2IiIiIiIiIErJcuUGsQa2pc0mme/DyIeYAGkDb+2zWBLfbliXm+7cen8nGQkRERERERJRQjZb3xBrMmibv1sV9N7fcHDQDSCxP
+							XDvM9ejSqEXeV4p/8mimEBEREREREbV5R8qvYg1iV+OfdPb4NUPNQTKAxPXtnLJg4tl6X9fDr4XXV4iIiIiIiIjapBy5RqxBq2nr
+							DYrdJy+NNwfHAJLDbecPch2KGrU21ieynhARERERERG1aoPkTbEGq6spbJfubjhrgDkYBpB8/ET0VusXm+/3OvwmBwgRERERERFR
+							q7SlfC/WIHU1Y0vz3fszxpqDYADJa+Xiie684/u4jPRU871fh/MkTYiIiIiIiIharNPEL85sDUxrSEtLcace3tMtW1hpDn4BhMPr
+							D4xyA3rnmOeBOsyQ9kJERERERETUrPknid0g1mB0NX59nEeuYqF2ICq+n1fudtm8xDwf1OFvMliIiIiIiIiImqUCeVysQehqxgzL
+							d+89xS2DQNSsWDTRnXFkL5ce/y2FfnH3ciEiIiIiIiJao3rLW2INPldz8O5d3K9vVZiDWwDR8NzNpa5jcdxPKfxZ/Lp6RERERERE
+							RE2qTD4Va9BZQ0F+urvjwkHmYBZA9HwwY6wbNiDXPF8YlspeQkRERERERNSoJskSsQabNQzpl8tTBgGs5qc3K9wOm3QwzxsG/3CI
+							E4SIiIiIiIgorg6VFWINMmsoG9nOffryBHPwCgD+KaR/3Keref6ow6lCREREREREVG/TxBpUrmbfHTq5JQtY7wpAw/wtxjnZaea5
+							xHCzZAgRERERERHRap0t1mByNX+a3MOtXGwPVAHAMnN6qStsl26eUwy3CZNYREREREREVJ0fJN4i1iCyhtycNHfPxYPNwSkANGTh
+							Y2Ncz65Z5vnFcL9kChEREREREUU8Pzi8S6zBYw1dSjLd7LtHmINSAIjXR8+Oc4P75pjnGcN9wpVYREREREREES5L/ODQGjTW0K9n
+							tnvvKZ40CKB5/Oev493wgXnm+cYwXdKEiIiIiIiIIlahvCDWYLGG0UPz3WezeNIggOb14xvlbpO1iszzjuFuSRciIiIiIiKKSHkS
+							1+TVmGH57nMmrwC0kJ/erHCbrd3ePP8YrpJUISIiIiIiopDnbxt8QqzBYQ2VowvcN3PKzEEnADSXJQsq3ObrxD2JdZkQERERERFR
+							iPMLtj8i1qCwhi3Wbe9+nl9hDjYBoLn99nal22aDYvN8ZDhdiIiIiIiIKIT5BZBvE2swWMMum5cEg0lrkAkALcVfibXlenFfiXWI
+							EBERERERUci6UqxBYA0H7NzZLV/I5BWAtuGv/NywIq6F3ZfLdkJEREREREQh6VSxBoA17LdjJyavALS57+aWuwkj2pnnqVq+k5FC
+							RERERERESd5RYg38ath1ixImrwAkjK9fK3Ojh+ab56ta/i09hIiIiIiIiJK0uCav/JpXTF4BSDRfzi5zg/vmmOetWhZJByEiIiIi
+							IqIka1vxa8RYg71q604o5GmDABLWosfHuA5FGeb5q5YnxD+sgoiIiIiIiJKkSvlFrEFetXXGFzB5BSDhzb1vpGuXl26ex2q5UIiI
+							iIiIiCgJ6i2fijW4qza2ND9YKNkaLAJAonn8mqEuIz3VPJ/Vsp8QERERERFRAlck74g1qKs2pF+u+3zWBHOQCACJ6rozBpjntFp+
+							lQlCRERERERECZhf++U+sQZ01bp2zHR/e3qsOTgEgER3/O+7m+e2Wj6QYiEiIiIiIqIE6xyxBnLV/Boybz44yhwUAkAyWLFoottm
+							g2LzHFfLk5IuRERERERElCD5NV+sAVy19PRU98hVQ80BIQAkk2/nlLnBfXPMc10tfmKfiIiIiIiIEqBNZZlYg7dq1585wBwIAkAy
+							8rdCty/MMM93tWwvRERERERE1Ib1l6/EGrRV+8MeXcwBIAAkswcuG+JSU+3zXozPpLMQERERERFRG5Qnb4s1YKu2/cYdgjVjrMEf
+							ACS7qUf0Ms99tbwg/kEXRERERERE1MpNF2ugVm3MsHz34xvl5qAPAMJg5eKJbpfNS8xzYC3HCREREREREbVie4s1QKvWuSTTffTs
+							OHPABwBh4hd179cz2zwXxvhVRgkRERERERG1QmPFD8SsAVogPzfNvf7AKHOgBwBhNO/+US4rM9U8J8Z4XwqEiIiIiIiIWrB8eUes
+							gVm1m6YNNAd4ABBmZxwZ13pYVwgRERERERG1YLeINSCrdsDOnc2BHQCE3fKFlW79skLz3BhjpWwuRERERERE1AIdLtZgrNr44flu
+							yYIKc2AHAFHw2awJrktJpnmOjPGJFAsRERERERE1YxNlqVgDsUBRQbr7YMZYc0AHAFHyxLXDXGqqfa6McY0QERERERFRM+XXvfqb
+							WAOwandcOMgcyAFAFB20WxfzXBljhawrRERERERE1AxdLtbgq9rBu3cxB3AAEFU/z69wA3vnmOfMGO9JjhAREREREdEatKVYg65q
+							E8cUuKXvVJoDOACIstl3j3Dp6anmuTPGX4SIiIiIiIiamF9g+GOxBlyBkvYZ7p/PjzMHbgCAie6P+3Q1z58x/K2EawsRERERERE1
+							oevEGmxVu+fiweaADQDwX9/NLXc9u2aZ59AY8yVTiIiIiIiIqBHtJNYgq9oBO3c2B2sAgJqevak0nqcSHidEREREREQUZ53lC7EG
+							WIE+3bPd9/PKzYEaAGB1v9uhk3k+jfGDdBMiIiIiIiKKo7vEGlwF/FUE/moCa4AGALD5Wwl7dGnwVsLpQkRERERERA20g1iDqmoH
+							7sqtgwDQFLedP8g8r8ZYLmOFiIiIiIiI6qhEPhNrUBXg1kEAaLqViye6dScUmufXGC9KqhAREREREZHRjWINpgLp6alu1p0jzEEZ
+							ACA+Cx8b4zJ0PrXOszEmCREREREREdVqfVkp1kAqcMz+3czBGACgcQ7dq6t5no3hr4YtFCIiIiIiIqoqXeaJNYgKDOyd4356s8Ic
+							iAEAGufzWRNcUUG6eb6NMVWIiIiIiIioqkPEGjwF0tJS3Eu3c+sgADSnC6f0Nc+5MX6SrkJERERERBT5usv3Yg2eAv5WF2vwBQBo
+							uuULK93IwXnmeTfGVUJERERERBT5bhVr0BToXJLpvplTZg6+AABr5tmbSs1zb4ylMkCIiIiIiIgi21pS78Lt10ztbw66AADNY4t1
+							25vn3xj+CbFERERERESRLFPeEWuwFFi/rNCtXGwPuAAAzePtR0cHaw1a5+EqK2S0EBERERERRa5jxBooBTLSU4NBlTXYAgA0r723
+							7Wiei2M8IERERERERJGqk3wr1iApcMieXcxBFgCg+b375JjgHw6s83EVf7v3OCEiIiIiIopMV4g1QAp075zlvp9Xbg6yAAAt4+Dd
+							u5jn5BgzhIiIiIiIKBL1k9/EGhwFpp89wBxcAQBazj+fH+eys9LM83KMiUJERERERBT67hJrUBTYsKKIhdsBoI0cd0B389wc4zEh
+							IiIiIiIKdf4pVv5pVtagyKWmpri59400B1UAgJb3+awJrl1eunmOruLP4cOEiIiIiIgotD0h1oAosPtWJeaACgDQev7vDz3Mc3SM
+							6UJERERERBTKNhVrIBTw66589Ow4czAFAGg9X79W1tBVWMukjxAREREREYWqNJkv1kAocMSkbuZACgDQ+o7er5t5ro5xiRARERER
+							EYWqPcQaAAUK26W7L2eXmYMoAEDr+/cL411WZqp5zq7ys3QUIiIiIiKiUJQlfxdrABQ4/Y+9zAEUAKDt7LdjJ/OcHeNUISIiIiIi
+							CkWTxRr4BDoWZ7jv55WbgycAQNtZ8Mjo4Omw1rm7yueSK0REREREREldhnwk1sAncNGf+5oDJwBA29t6g2Lz3B3D/yMFERERERFR
+							UrefWAOewMDeOW7pO5XmoAkA0PZeu2ekef6OsVBShYiIiIiIKCnzTx58V6wBT+DOCweZAyYAQOJYv6zQPIfHWE+IiIiIiIiSsu3E
+							GugEhvbPdSsW2YMlAEDiuP+yIeZ5PMZtQkRERERElJTNEWugE7jl3IHmQAkAkFiWL6x0fXtkm+fyKkuluxARERERESVVG4s1yAn4
+							gdAyDYisgRIAIPGceVRv83we42QhIiIiIiJKqmaKNcAJXHZyP3OABABITF+8MsFlZ6WZ5/Qq/xb/5FkiIiIiIqKkqFKswU2ga8dM
+							9+tbFeYACQCQuPbcuqN5Xo+xoxARERERESVF94s1sAn421CsgREAILG9eNtw87weY4YQERERERElfINkuVgDG9cuL919/VqZOTAC
+							ACS2lYsnutKBueb5vcoK6S9EREREREQJ3dViDWoCx+zfzRwUAQCSw6Un9TPP7zFOFSIiIiIiooStRH4Ra0DjcnPS3GezJpgDIgBA
+							cvjxjXJX2C7dPM9X+YekCRERERERUUJ2lFiDmcCBu3Y2B0MAgOTy+106m+f5GGsLERERERFRwpUq74k1kHFpaSnuvafGmgMhAEBy
+							eeHWBhdz97eTExERERERJVxbijWICWy9QbE5CAIAJB+/mPuA3jnm+b7K95InRERERERECdWjYg1iAk9cO8wcBAEAktMph/U0z/cx
+							dhciIiIiIqKEqZ/4R6dbAxg3qE9O8K/11gAIAJCc3p8x1qWm2uf9Ko8JERERERFRwjRNrMFL4PwT+piDHwBAcps4psA871dZJl2F
+							iIiIiIiozcuRL8UavLi8nDT3zZwyc+ADAEhuV57a3zz3x/BPpyUiIiIiImrz9hJr0BKYtH0nc9ADAEh+X84uc5kZqeb5v8qrQkRE
+							RERE1ObNFmvQEnjjgVHmoAcAEA47btrBPP/H8OskEhERERERtVmjxRqsBMaV5puDHQBAeNx7yWDzMyDGEUJERERERNRmXSLWYCVw
+							07SB5mAHABAev75V4Qry083PgSovCRERERERUZuUKV+INVhxnUsy3ZIFFeZgBwAQLrttWWJ+FlRZId2EiIiIiIio1dtcrIFK4Kjf
+							dTMHOQCA8Ln9gkHmZ0GMg4SIiIiIiKjVu12sQUpg/kMs3g4AUfHjG+UuJzvN/DyoMkOIiIiIiIhatQL5WaxBihs5OM8c4AAAwmvb
+							DYvNz4QqS6WDEBERERERtVp7izVACZx1dG9zcIPEtnLxRPfJS+Pd354e6+bdP8o9e1Opmzm91P311uHu9QdGuQ9njnXfzikz/78A
+							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
+							BlzVenbNcp++PMEcvAFAVN136WDznFnLPUJERERERETN0HSxBl7VxpXmu1/mV5iDOACImsVPjHHt8tLN82WM/0h7ISIiIiIiomYo
+							R+aINQCrNml7FnUHAD+ZP3JwnnmerGUbISIiIiIiomasv3wt1iCs2nVnDDAHdAAQFUfu2808P9ZymxAREREREVELtJksF2swFsjK
+							THXP3lRqDuoAIOwevHyIS021z48x3pMCISIiIiIiohbqBLEGZNUK26W7Nx8cZQ7uACCsPnp2nCsuzDDPizF+ldFCRERERERELdwN
+							Yg3MqnUsznDvPjnGHOQBQNh8O6fMDe2fa54Pa9lfiIiIiIiIqBWKa1H3fj2z3ScvjTcHewAQFssWVrpN1yoyz4O13CxERERERETU
+							ivWTr8QapFUrH9XO/fRmhTnoA4AwOGb/uBZtf18KhYiIiIiIiFq5CfKjWIO1ahuUF7olC5jEAhA+l5/czzzv1fKzDBciIiIiIiJq
+							o7aVZWIN2qr9bodObuViewAIAMnouZtLXWZGqnnOq2WyEBERERERURt3gKwUa+BW7fjfdzcHgQCQbP729FjXoajBJw56lwgRERER
+							ERElSCeKNXir4YQDmcQCkNz8wykG9s4xz3G1PCnpQkRERERERAnUeWIN4mqYvFsXt2KRPTAEgET22awJblCfuCav5ks7ISIiIiIi
+							ogQrVaaLNZir4cBdOzOJBSCpfDOnzI0akmee02r5TPoIERERERERJWiZ8oRYg7oaDtiZSSwAyeGnNyvcxDEF5rmsFv/EQf+EViIi
+							IiIiIkrwCmWuWIO7Gv6wRxeeTgggoS1bWOm237iDeQ4z+IdaEBERERERUZJULHFNYh3EmlgAEpQ/N+2zXSfz3GU4WYiIiIiIiCjJ
+							ai+viTXQq+F3O3QKrnKwBpAA0BaW65zkz03WOctwgRAREREREVGSlifPijXgq2HDiiL37ZwycyAJAK3p17cq3DYbFJvnKsOFQkRE
+							REREREle3JNYpQNz3T+eG2cOKAGgNfwyv8JtuV578xxluF78E1iJiIiIiIgoBPlJrJliDQBr6NYpy827f5Q5sASAlvTjG+Vu/bJC
+							89xkuFvShYiIiIiIiEJUrswQayBYQ7u8dPfY1UPNASYAtITv55W7dcYXmOckwxOSJURERERERBTC8uV5sQaENWRlprrbzh9kDjQB
+							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"/>
+				<rect v:rectContext="foreign" x="0" y="316.845" width="31.1811" height="15.458" class="st25"/>
+			</g>
+		</g>
+		<g id="shape1154-392" v:mID="1154" v:groupContext="shape" v:layerMember="1" transform="translate(71.518,-238.435)">
+			<title>Dynamická spojnice.1154</title>
+			<path d="M0 325.22 L68.03 325.22" class="st59"/>
+		</g>
+		<g id="shape1155-401" v:mID="1155" v:groupContext="shape" v:layerMember="1" transform="translate(396.085,-228.812)">
+			<title>Dynamická spojnice.1155</title>
+			<desc>File Transfer SFTP/SCP</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="-92.126" cy="325.217" width="50.02" height="27.2035"/>
+			<path d="M0 325.51 L-184.25 324.92" class="st59"/>
+			<rect v:rectContext="textBkgnd" x="-112.225" y="315.617" width="40.199" height="19.1997" class="st61"/>
+			<text x="-112.23" y="322.82" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>File Transfer<v:lf/><tspan
+						x="-107.4" dy="1.2em" class="st57">SFTP/SCP</tspan></text>		</g>
+		<g id="shape1156-411" v:mID="1156" v:groupContext="shape" v:layerMember="1" transform="translate(509.811,-223.837)">
+			<title>Dynamická spojnice.1156</title>
+			<desc>Transfer I/O Data</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.0504" cy="325.217" width="40" height="27.2035"/>
+			<path d="M0 325.22 L52.1 325.22" class="st59"/>
+			<rect v:rectContext="textBkgnd" x="12.312" y="315.617" width="27.4765" height="19.1997" class="st61"/>
+			<text x="12.52" y="322.82" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Transfer<v:lf/><tspan
+						x="12.31" dy="1.2em" class="st57">I/O Data</tspan></text>		</g>
+		<g id="shape1157-421" v:mID="1157" v:groupContext="shape" v:layerMember="1" transform="translate(162.227,-184.86)">
+			<title>Dynamická spojnice.1157</title>
+			<desc>HPC capabilities</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="0" cy="395.516" width="61.59" height="17.6036"/>
+			<path d="M0 332.3 L0 423.3 L35.43 423.3" class="st59"/>
+			<rect v:rectContext="textBkgnd" x="-25.8881" y="390.716" width="51.7764" height="9.59985" class="st61"/>
+			<text x="-25.89" y="397.92" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>HPC capabilities</text>		</g>
+		<g id="shape1158-430" v:mID="1158" v:groupContext="shape" v:layerMember="1" transform="translate(262.573,-96.7027)">
+			<title>Dynamická spojnice.1158</title>
+			<desc>Job Management SSH</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.1339" cy="325.217" width="66.3" height="27.2035"/>
+			<path d="M0 325.22 L146.27 325.22" class="st59"/>
+			<rect v:rectContext="textBkgnd" x="44.8902" y="315.617" width="56.4876" height="19.1997" class="st61"/>
+			<text x="44.89" y="322.82" class="st4" v:langID="1029"><v:paragraph v:horizAlign="1"/><v:tabList/>Job Management<v:lf/><tspan
+						x="66.97" dy="1.2em" class="st57">SSH</tspan></text>		</g>
+		<g id="shape1159-440" v:mID="1159" v:groupContext="shape" v:layerMember="1" transform="translate(491.613,-96.7028)">
+			<title>Dynamická spojnice.1159</title>
+			<path d="M0 325.22 L102.9 325.22" class="st59"/>
+		</g>
+		<g id="shape1160-447" v:mID="1160" v:groupContext="shape" v:layerMember="1" transform="translate(626.457,-193.08)">
+			<title>Dynamická spojnice.1160</title>
+			<path d="M7.09 332.3 L7.09 364.9" class="st59"/>
+		</g>
+	</g>
+</svg>

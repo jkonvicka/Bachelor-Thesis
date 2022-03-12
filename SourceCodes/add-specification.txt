@@ -1,41 +1,55 @@
-Cluster
-{
-    "Id":3,
-    "Name":"Local",
-    "Description":"Local computing machine",
-    "MasterNodeName":"host.docker.internal",
-    "Port":49005,
-    "LocalBasepath":"/home/username-is-stored-in-LocalLinuxHPCcluster-readme/heappetests",
-    "TimeZone":"CET",
-    "SchedulerType":1,
-    "ConnectionProtocol":2,
-    "ServiceAccountCredentialsId":11
-}
+"Clusters": [
+      {
+        "Id": 1,
+        "Name": "{LocalComputingClusterName}",
+        "Description": "{ClusterDescription}",
+        "MasterNodeName": "host.docker.internal",
+        "DomainName": "localhost",
+        "Port": 49500,
+        "LocalBasepath": "/home/heappeclient/heappetests",
+        "TimeZone": "CET",
+        "SchedulerType": 1,
+        "ConnectionProtocol": 2,
+        "ServiceAccountCredentialsId": 1,
+        "UpdateJobStateByServiceAccount": true
+      }
+    ]
 ...
 
-ClusterAuthenticationCredentials
-{
-    "Id":11,
-    "Username":"username-is-stored-in-LocalLinuxHPCcluster-readme",
-    "Password":"password-is-stored-in-LocalLinuxHPCcluster-readme",
-    "PrivateKeyFile":"/opt/heappe/keys/id_rsa_01",
-    "PrivateKeyPassword":"key-is-stored-in-LocalLinuxHPCcluster-readme",
-    "ClusterId":3
- }
+"ClusterAuthenticationCredentials": [
+      {
+        "Id": 1,
+        "Username": "{UserName}",
+        "Password": null,
+        "PrivateKeyFile": "{PrivateKeyFile}",
+        "PrivateKeyPassword": "{PrivateKeyPassword}",
+        "ClusterId": 1
+      },
+      {
+        "Id": 2,
+        "Username": "{UserName}",
+        "Password": null,
+        "PrivateKeyFile": "{PrivateKeyFile}",
+        "PrivateKeyPassword": "{PrivateKeyPassword}",
+        "ClusterId": 1
+      }
+    ]
 ...
 
-ClusterNodeType
-{
-     "Id":14,
-     "Name":"ExpressLocal",
-     "Description":"Testing nodes Local",
-     "NumberOfNodes":32,
-     "CoresPerNode":128,
-     "Queue":"qexp",
-     "RequestedNodeGroups":null,
-     "MaxWalltime":3600,
-     "ClusterId":3,
-     "FileTransferMethodId":3,
-     "JobTemplateId":3,
-     "TaskTemplateId":3
-}
+"ClusterNodeTypes": [
+      {
+        "Id": 1,
+        "Name": "{Name}",
+        "Description": "{Description}",
+        "NumberOfNodes": "{NumberOfNodes}",
+        "CoresPerNode": "{CoresPerNode}",
+        "Queue": "{Queue}",
+        "RequestedNodeGroups": null,
+        "MaxWalltime": "{MaxWalltime}",
+        "ClusterId": 1,
+        "FileTransferMethodId": 3,
+        "JobTemplateId": 1,
+        "TaskTemplateId": 1,
+        "ClusterAllocationName": null
+      }
+    ]

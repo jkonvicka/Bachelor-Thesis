@@ -13,6 +13,11 @@
 \usepackage{listings}
 \usepackage{placeins} 
 \usepackage{hyperref}
+\usepackage{svg}
+\usepackage{amsmath}
+
+
+
 \lstdefinelanguage{Dockerfile}
 {
   morekeywords={FROM, RUN, CMD, LABEL, MAINTAINER, EXPOSE, ENV, ADD, COPY,
@@ -86,7 +91,7 @@
 \ThesisAssignmentFileName{ThesisSpecification.pdf}
 
 % Pokud nechceme nikomu dekovat makro zapoznamkujeme.
-\Acknowledgement{Rád bych na tomto místě poděkoval všem, kteří mi s prací pomohli, protože bez nich by tato práce nevznikla.}
+\Acknowledgement{Rád bych na tomto místě poděkoval vedoucímu bakalářské práce Ing. Václavu Svatoňovi, Ph.D. a Ing. Janu Křenkovi za jejich rady a čas, který mi věnovali při řešení dané problematiky.}
 
 \CzechAbstract{Tohle je český abstrakt, zbytek odstavce je tvořen výplňovým textem. Naší si rozmachu potřebami s posílat v poskytnout ty má plot. Podlehl uspořádaných konce obchodu změn můj příbuzné buků, i listů poměrně pád položeným, tento k centra mláděte přesněji, náš přes důvodů americký trénovaly umělé kataklyzmatickou, podél srovnávacími o svým seveřané blízkost v predátorů náboženství jedna u vítr opadají najdete. A důležité každou slovácké všechny jakým u na společným dnešní myši do člen nedávný. Zjistí hází vymíráním výborná.}
 
@@ -96,19 +101,21 @@
 
 \EnglishKeywords{typography; \LaTeX; master thesis}
 
-\AddAcronym{HPC}{High-performance computing / High-performance cluster}
-\AddAcronym{HEAppE}{High-End Application Execution (Middleware)}
-\AddAcronym{Flop/s}{Floating-point Operations Per Second}
 \AddAcronym{API}{Application Programming Interface}
-\AddAcronym{REST API}{Representational State Transfer Application Programming Interface}
-\AddAcronym{HaaS}{HPC-as-a-Service}
-\AddAcronym{SSH}{Secure Shell}
-\AddAcronym{RSA}{Rivest–Shamir–Adleman cryptosystem}
-\AddAcronym{HTTP}{Hypertext Transfer Protocol}
 \AddAcronym{DOS/DDOS}{(Distributed) Denial of Service}
-\AddAcronym{JSON}{JavaScript Object Notation}
 \AddAcronym{DTO}{Data Transfer Object}
+\AddAcronym{Flop/s}{Floating-point Operations Per Second}
+\AddAcronym{HEAppE}{High-End Application Execution (Middleware)}
+\AddAcronym{HPC}{High-performance computing / High-performance cluster}
+\AddAcronym{HTTP}{Hypertext Transfer Protocol}
+\AddAcronym{HaaS}{HPC-as-a-Service}
+\AddAcronym{JSON}{JavaScript Object Notation}
 \AddAcronym{PID}{Process ID}
+\AddAcronym{REST API}{Representational State Transfer Application Programming Interface}
+\AddAcronym{RPC}{Remote Procedure Call}
+\AddAcronym{RSA}{Rivest–Shamir–Adleman cryptosystem}
+\AddAcronym{SCP}{Secure Copy Protocol}
+\AddAcronym{SSH}{Secure Shell}
 
 \addbibresource{bibliografie.bib}
 
@@ -135,6 +142,7 @@
 % A nasleduje text zaverecne prace.
 \input{Chapters/Introduction.tex}
 \input{Chapters/Superpocitac.tex}
+\input{Chapters/SOAHaaS}
 \input{Chapters/SeznameniSHEAppEMidlleware}
 \input{Chapters/RozsireniHEAppEProLokalniVypocty}
 \input{Chapters/UzivatelskyDefinovaneSablonyVypoctu}
@@ -150,5 +158,6 @@
 \input{Chapters/Appendix/DockerDesktop}
 \input{Chapters/Appendix/RobotFrameworkDemo}
 \input{Chapters/Appendix/RobotFrameworkReportAll}
+\input{Chapters/Appendix/ManualHeappeTests}
 
 \end{document}

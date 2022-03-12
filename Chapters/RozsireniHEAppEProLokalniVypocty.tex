@@ -17,7 +17,7 @@ Celá koncepce návrhu rozšíření se nachází na obrázku \ref{fig:navrh-roz
 \newpage
 \begin{figure}
 	\centering
-	\includegraphics[width=1.0\textwidth]{Figures/local-hpc-clsuter-navrh.png}
+	\includegraphics[width=1.0\textwidth]{Figures/main-docker-container-view.pdf}
 	\caption{Návrh rozšíření o lokální HPC cluster}
 	\label{fig:navrh-rozsireni-o-lokalni-hpc-clsuter}
 \end{figure}
@@ -44,7 +44,7 @@ Ke komunikaci mezi HEAppE a skutečným superpočítačovým clusterem probíhá
 Obdobně byla navržena komunikace i mezi HEAppE a virtuálním strojem simulující chování plánovače superpočítačového clusteru. Komunikace taky probíhá prostřednictvím SSH s využitím autentizace, tak aby byla simulace co nejvěrohodnější.
 
 \section{Data a stav úloh}
-HEAppE Middleware je stavěn tak, že se na obou stranách (HEAppE i HPC) uchovávají data o prováděných úlohách. HEAppE si v době běhu úlohy na superpočítači cyklicky žádá o data. A postupně se takto obě databáze synchronizují. Dotazování na nová data končí v okamžiku ukončení úlohy. Data jsou poskytována pouze na vyžádání, nejedná se o sdílený datový prostor. Data jsou z HPC zasílána v předem známém formátu v textové podobě zpět při SSH komunikaci.
+HEAppE Middleware je navržen tak, že se na obou stranách (HEAppE i HPC) uchovávají data o prováděných úlohách. HEAppE Middleare v době běhu úlohy na superpočítači cyklicky zjišťuje stav svých spuštěných úloh. A postupně se takto obě databáze synchronizují. Data jsou poskytována pouze na vyžádání, nejedná se o sdílený datový prostor. Data jsou z HPC zasílána v předem známém formátu v textové podobě zpět při SSH komunikaci.
 
 Obdobně je přistupováno k datům i v případě simulace HPC na lokálním virtuálním stroji. S ohledem na výkon a režii nejsou data na straně virtuálního HPC ukládána v databázi. V adresáři dané úlohy je sada souborů, obsahující data (stav, parametry) úlohy. Tato data se nachází v předem definované JSON struktuře, jsou ukládána a aktualizována při běhu úlohy. Po vyžádání jsou data zaslána v JSON struktuře textově zpět na HEAppE.
 
@@ -59,7 +59,7 @@ Pro práci s JSON strukturami slouží ve virtuálním stroji parser\footnote{Pa
 \end{lstlisting}
 
 \section{Implementace na straně HEAppE Middleware}
-Jak už bylo zmíněno výše, HEAppE Middleware je stavěn na platformě .NET Core\footnote{.NET Core je Open-Source vývojová platforma sloužící k vytváření aplikací.}, vyvíjí se v jazyce C\#. Z hlediska pohledu architektury se jedná o vrstvený systém. Uživatelské požadavky na REST API jsou zachyceny ve stejnojmenné vrstvě (RestAPi). Z této vrstvy jsou vstupní data po úspěšné validaci předávána do servisní a BusinessLogic vrstvy, ve které se nachází primární aplikační logika. Na závěr se požadavek dostává do vrstvy HpcConnectionFramework.
+Jak už bylo zmíněno výše, HEAppE Middleware je stavěn na platformě .NET Core\footnote{.NET Core je Open-Source vývojová platforma sloužící k vytváření aplikací.}, vyvíjí se v jazyce C\#. Z hlediska pohledu architektury se systém HEAppE se skládá z několika logicky oddělených vrstev. Uživatelské požadavky na REST API jsou zachyceny ve stejnojmenné vrstvě (RestAPi). Z této vrstvy jsou vstupní data po úspěšné validaci předávána do servisní a BusinessLogic vrstvy, ve které se nachází primární aplikační logika. Na závěr se požadavek dostává do vrstvy HpcConnectionFramework.
 
 Vrstva HpcConnectionFramework je místem, kde dochází ke komunikaci s výpočetními clustery. V této vrstvě je implementováno několik adaptérů, které jsou schopny pracovat s odlišnými typy plánovačů na superpočítačích. Adaptéry jsou voleny na základě specifikace úloh, HEAppE předem musí mít v databázi informace o používaných clusterech a plánovačích. Právě v tomto místě se také nachází největší část implementace pro komunikaci s lokálním simulovaným výpočetním clusterem.
 
@@ -70,7 +70,7 @@ DTO objekty s napamovanými daty jsou pak v nižších vrstvách využity pro ak
 \section{Implementace na straně virtuálního stroje}
 Konfigurace již zmiňovaného virtuálního stroje s OS Linux je sepsána jako sekvence kroků pro spouštění v prostředí Docker. Součástí konfigurace je stažení obrazu OS Linux (Minideb) vytvoření uživatele pro práci, nastavení přístupových práv, nastavení domovského adresáře, instalace openssh serveru pro komunikaci nebo například instalace programu jq pro jednodušší práci s JSON strukturami.
 
-Z důvodu možnosti jednoduché a rychlé úpravy byly pro řízení běhu simulovaného plánovače napsány scripty ve skriptovacím jazyce BASH. Zmíněné skripty programátor může jednoduše číst, orientovat se v nich, a protože se jedná o interpretovaný jazyk, tak se programy napsané v BASH spouštějí přímo bez nutnosti kompilace. Pro využití s Docker konfigurací tyto programy patří mezi nejlepší možné rychlé a jednoduché řešení. Celkově tato koncepce navazuje na stávající řídící skripty, které HEAppE využívá na skutečných výpočetních clusterech pro zjednodušení komunikace. Tyto skripty byly zvalidovány služnou, která je dostupná na adrese \emph{\href{https://www.shellcheck.net/}{shellcheck.net}}.
+Z důvodu možnosti jednoduché a rychlé úpravy byly pro řízení běhu simulovaného plánovače napsány scripty ve skriptovacím jazyce BASH. Zmíněné skripty programátor může jednoduše číst, orientovat se v nich, a protože se jedná o interpretovaný jazyk, tak se programy napsané v BASH spouštějí přímo bez nutnosti kompilace. Pro využití s Docker konfigurací tyto programy patří mezi nejlepší možné rychlé a jednoduché řešení. Celkově tato koncepce navazuje na stávající řídící skripty, které HEAppE využívá na skutečných výpočetních clusterech pro zjednodušení komunikace. Tyto skripty byly zvalidovány službou, která je dostupná na adrese \emph{\href{https://www.shellcheck.net/}{shellcheck.net}}.
 
 Mezi stávající využívané skripty patří například skript vytvářející pracovní adresář pro dané úlohy, přidávání či odebírání SSH klíčů nebo skript pro přesun dat. Tyto stávající skripty jsou využívány i na skutečných výpočetních clusterech.
 
@@ -104,7 +104,7 @@ Skript věrohodně simuluje chování postupného spouštění jednotlivých úl
 	\end{enumerate}
 	\item Vstup do adresáře jobu
 	\item Zapsání stavu a časů daného jobu (agregace stavů úloh)
-	\item Ukončení scriptu
+	\item Ukončení skriptu
 \end{enumerate}
 
 Aktualizace datové struktury pro ukládání stavů (v souboru \emph{.job\_info}) je okamžitě propsána do souboru po každé úpravě z důvodu nemožnosti předvídání čtení aktuálního stavu prostřednictvím HEAppE. Data musí být v každém kroku aktuální.

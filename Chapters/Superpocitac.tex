@@ -13,7 +13,7 @@ První superpočítače se začaly objevovat kolem roku 1960. Za pomyslného otc
 
 Společnost Cray Research využívala ke konstrukci jejich superpočítačů až 10× rychlejší procesory v porovnání s procesory využívanými pro komerční počítače této doby. Později počátkem 90. let se však do popředí dostávají společnosti IBM a HP, které výkonem jejich superpočítačů zastiňují všechny menší firmy pokoušející se o vývoj vlastních superpočítačů.
 
-V minulosti byly superpočítače navrhovány pro přesně danou úlohu. Příkladem takto specializovaného výpočetního clusteru je superpočítač Deep Blue, byl vyvinut společností IBM. Jeho úkolem bylo počítat postavení šachových figur na hracím poli. Tento superpočítač měl k dispozici 64 procesorů, na každou buňku hracího pole jeden. Deep Blue byl schopen spočítat až 200 milionů postavení fugur za sekundu. V květnu roku 1997 tento superpočítač porazil ruského šachového velmistra Garri Kasparova.\cite{Hosch20191128}
+V minulosti byly superpočítače navrhovány pro přesně danou úlohu. Příkladem takto specializovaného výpočetního clusteru je superpočítač Deep Blue, byl vyvinut společností IBM. Jeho úkolem bylo počítat postavení šachových figur na hracím poli. Tento superpočítač měl k dispozici 64 procesorů, na každou buňku hracího pole jeden. Deep Blue byl schopen spočítat až 200 milionů postavení šachových figur za sekundu. V květnu roku 1997 tento superpočítač porazil ruského šachového velmistra Garri Kasparova.\cite{Hosch20191128}
 
 \begin{figure}[h]
 	\centering
@@ -33,13 +33,13 @@ Nejvýkonnějším superpočítačem v České republice je nyní cluster Karoli
 Vývoj v odvětví IT se však žene stále kupředu a je jen otázkou času, kdy se v žebříčku objeví nový superpočítač a celé pořadí zpřehází.
 
 \section{Plánovač úloh}
-Výpočetní cluster je z praktického hlediska implementací dávkového systému. Uživatelé sami jejich programy na systému nespouští, ale dávají pokyn plánovači, který zajistí zpracování úlohy \cite{W94NKRaxvG2L2A1W}. Jedná se o program, který spravuje životní cyklus úloh na clusteru. Dle vypočtené priority řadí vytvářené úlohy do fronty, ze které jsou následně úlohy spouštěny. Stěžejními atributy pro zařazení úlohy do fronty mohou být například žádosti o zdroje, doba zpracování nebo priorita úlohy.
+Výpočetní cluster je z praktického hlediska implementací dávkového systému. Uživatelé sami jejich programy na systému nespouští, ale dávají pokyn plánovači, který zajistí zpracování úlohy \cite{W94NKRaxvG2L2A1W}. Jedná se o program, který spravuje životní cyklus úloh na clusteru. Dle vypočtené priority řadí vytvářené úlohy do fronty, ze které jsou následně úlohy spouštěny. Stěžejními atributy pro zařazení úlohy do fronty mohou být například žádosti o množství zdrojů, doba zpracování nebo priorita úlohy.
 
 Aby nedocházelo k plýtvání nevyužívaných zdrojů, tak je také jedním z hlavních faktorů zařazení úlohy do fronty využití samotných uzlů na výpočetním clusteru. Pokud tedy plánovač volí pořadí spouštění jednotlivých úloh, mezi metriky zařazuje i vlastní volné zdroje na kterých mohou být spouštěny kratší úlohy, i když pokyn k jejich zpracování přišel později než u časově náročnějších úloh.
 
-I přes vysoký výkon superpočítačů a jejich neustálý vývoj není aktuálně možné uspokojit veškeré uživatelské požadavky ke zpracování úloh. Vytížení superpočítače a jeho zdrojů je většinou tedy maximální, každou dokončenou úlohu okamžitě nahrazuje úloha další. Uživatel tedy zpravidla na spuštění úlohy čeká. I tento problém pomáhá řešit plánovač na superpočítačovém clusteru. 
+I přes vysoký výkon superpočítačů a jejich neustálý vývoj není aktuálně možné uspokojit veškeré uživatelské požadavky ke zpracování úloh. Vytížení superpočítače a jeho zdrojů se průměrně pohybuje mezi 80-90 \%, každou dokončenou úlohu tak většinou nahrazuje úloha další. Uživatel tedy zpravidla na spuštění úlohy čeká. I tento problém pomáhá řešit plánovač na superpočítačovém clusteru. 
 
-Následující obrázek \ref{fig:planovani-uloh} popisuje plánování úloh s ohledem na eliminaci plýtvání zdroji. V tomto případě se jedná o dávkový systém se 6 výpočetními uzly. Cílem plánovače je zvolit pořadí spouštění úloh, tak, aby bylo minimalizováno plýtvání zdroji. Jednou z podmínek plánovače je omezení naplánování nanejvýš jedné úlohy na jeden uzel v jednom čase. V tomto p59kladu se plánuje 9 úloh.
+Následující obrázek \ref{fig:planovani-uloh} ilustruje plánování úloh s ohledem na co možná nejefektivnější využití výpočetních zdrojů. V tomto případě se jedná o dávkový systém se 6 výpočetními uzly. Cílem plánovače je zvolit pořadí spouštění úloh, tak, aby bylo minimalizováno plýtvání zdroji. Jednou z podmínek plánovače je omezení naplánování nanejvýš jedné úlohy na jeden uzel v jednom čase. V tomto příkladu se plánuje 9 úloh.
 
 \begin{figure}[h]
 	\centering
@@ -59,18 +59,18 @@ K plánování HPC úloh může být také využit algoritmus ALCF (Argonne Lead
 
 Nejčastěji je však při plánování úloh využíváno techniky Backfilling. Technika Backfilling je optimalizovanou variantou algoritmu či principu FCFS, plánovač zkontroluje, zda je možné spustit první úlohu ve frontě. Pokud je to možné (je dostatek prostředků), úloha se spustí bez dalšího čekání. Pokud to však možné není, plánovač projde zbytek fronty a provádí kontrolu zda je možné spustit další úlohu, aniž by se prodloužila čekací doba první úlohy ve frontě \cite{pr00bfp79qnvRTQ3}.
 
-Na obrázku \ref{fig:fcfs-without-backfilling} je ilustrována průchodnost systémem s využitím plánovacícho algoritmu FCFS bez využití techniky Backfilling. Illustrace \ref{fig:fcfs-with-backfilling} znázorňuje taktéž algoritmus FCFS s využitím techniky Backfilling. Při porovnání těchto ilustračních obrázků je možné vidět značné omezení plýtvání zdroji a maximalizaci průchodnosti systémem při použití techniky Backfilling. Bloky s čísly znázorňují plánované úlohy z fronty. Již běžící úlohy jsou označeny jako „running job“.
+Na obrázku \ref{fig:fcfs-without-backfilling} je ilustrována průchodnost systémem s využitím plánovacího algoritmu FCFS bez využití techniky Backfilling. Ilustrace \ref{fig:fcfs-with-backfilling} znázorňuje taktéž algoritmus FCFS s využitím techniky Backfilling. Při porovnání těchto ilustračních obrázků je možné vidět značné omezení plýtvání zdroji a maximalizaci průchodnosti systémem při použití techniky Backfilling. Bloky s čísly znázorňují plánované úlohy z fronty. Již běžící úlohy jsou označeny jako „running job“.
 \newpage
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{Figures/fcfs-without-backfilling.png}
+	\includegraphics[width=0.8\textwidth]{Figures/fcfs-wb.png}
 	\caption{Algoritmus FCFS bez použití techniky Backfilling \cite{GomezMartin2016}}
 	\label{fig:fcfs-without-backfilling}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{Figures/fcfs-with-backfilling.png}
+	\includegraphics[width=0.8\textwidth]{Figures/fcfs-web.png}
 	\caption{Algoritmus FCFS s použitím techniky Backfilling \cite{GomezMartin2016}}
 	\label{fig:fcfs-with-backfilling}
 \end{figure}

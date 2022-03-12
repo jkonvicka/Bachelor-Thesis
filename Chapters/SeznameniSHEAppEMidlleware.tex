@@ -2,32 +2,33 @@
 Kapitola je zaměřena na popis aplikačního rámce HEAppE Middleware.
 
 \section{Účel HEAppE Middleware}
-HEAppE Middleware (High-End Application Execution Middleware) poskytuje aplikační rozhraní (API) pro kompletní správu úlohy na superpočítačovém clusteru, od vytvoření až po přenos zpracovaných dat. Jedná se o Open-Source\footnote{Kód, který je navržen tak, aby byl veřejně přístupný.} projekt implementující koncept HPC-as-a-Service a jeho cílem je zjednodušit komunikaci s HPC plánovačem a umožnit uživateli pohodlnou implementaci do jeho klientské aplikace či systému. HEAppE Middleware zajišťuje bezpečnou a šifrovanou komunikaci s výpočetním clusterem prostřednictvím protokolu SSH. Komunikace pak stojí na autentizaci pomocí asymetrického šifrování s využitím veřejného klíče (RSA).
+HEAppE Middleware\footnote{https://heappe.eu/} (High-End Application Execution Middleware) poskytuje aplikační rozhraní (API) pro kompletní správu úlohy na superpočítačovém clusteru, od vytvoření až po přenos zpracovaných dat. Jedná se o Open-Source\footnote{Kód, který je navržen tak, aby byl veřejně přístupný.} projekt implementující koncept HPC-as-a-Service a jeho cílem je zjednodušit komunikaci s HPC plánovačem a umožnit uživateli pohodlnou implementaci do jeho klientské aplikace či systému. HEAppE Middleware zajišťuje bezpečnou a šifrovanou komunikaci s výpočetním clusterem prostřednictvím protokolu SSH. Komunikace pak stojí na autentizaci pomocí asymetrického šifrování s využitím veřejného klíče (RSA).
 
 Abstraktně si můžeme HEAppE Middleware představit jako spolehlivého prostředníka mezi uživatelem a výpočetním clusterem, popř. jeho plánovačem. Poskytuje uživatelům vzdálený přístup k výpočetním clusterům se zaměřením na bezpečnost a jednoduchost přístupu.
 
 Prakticky se jedná o službu, prostřednictvím které může koncový uživatel komunikovat s HPC clusterem přes standardizované aplikační rozhraní zvané jako REST API, stojící na HTTP komunikaci.
 
-Následující obrázek \ref{fig:haas} ilustruje využití HPC-as-a-Service / HaaS.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/haas.png}
-	\caption{HPC-as-a-Service / HaaS \cite{uG7wIvjQiIli6kO9}}
-	\label{fig:haas}
-\end{figure}
-
-\newpage
 \section{Technické zázemí HEAppE Middleware}
 Velký důraz je v tomto projektu kladen na multiplatformní využití a nezávislost použitého hardwaru. Tento aplikační framework je postaven na technologii .NET Core, poskytuje REST API a při nasazování je využívána kontejnerizační technologie Docker. Komunikace s plánovačem výpočetního uzlu probíhá prostřednictvím protokolu SSH, uživatel je autentizován jedním z uložených servisních účtů metodou RSA.
 
 V současnosti tento framework zajišťuje komunikaci s plánovači PBS a Slurm. Podporuje autentizaci prostřednictvím SSH Agenta a je zajištěna podpora OpenID and OpenStack autentizace pro přístup k HEAppE Middleware API.
 
 \subsection{Konfigurace HEAppE Middleware}
-HEAppE je nutné před spuštěním konfigurovat. V první řadě je sestaveno konfigurační schéma (docker-compose) pro službu Docker, na které middleware běží. Do této konfigurace jsou zaneseny mimo obraz HEAppE Middleware všechny podpůrné služby, jako je MS SQL Server nebo SSH Agent. V návaznosti je přidána konfigurace samotné aplikace (AppConfig), která primárně specifikuje spojení s databází, port middleware API a další. Nedílnou součástí konfigurace je i počáteční stav dat uložených v databázi (seed), který si každý uživatel může specifikovat. Tato data jsou v okamžiku prvního spuštění HEAppE nahrána do databáze.
+HEAppE je nutné před spuštěním konfigurovat. V první řadě je sestaveno konfigurační schéma (docker-compose) pro službu Docker, na kterém middleware běží. V Docker kontejneru se pak mimo samotný HEAppE Middleware nachází veškeré podpůrné služby, jako je MS SQL Server nebo SSH Agent. V návaznosti je přidána konfigurace samotné aplikace (AppConfig), která primárně specifikuje spojení s databází, port middleware API a další. Nedílnou součástí konfigurace je i počáteční stav dat uložených v databázi (seed), který si každý uživatel může specifikovat. Tato data jsou v okamžiku prvního spuštění HEAppE nahrána do databáze.
 
 \subsection{REST API}
-REST API je standardizované aplikační rozhraní využívající protokol HTTP. Služba poskytující toto API vystavuje tzv. endpointy (koncový uzel zpřístupněný uživateli) a specifikaci pro práci s nimi. V případě HEAppE Middleware se jedná o url adresy se specifikací JSON\footnote{JSON neboli JavaScript Object Notation je formát využívaný pro výměnu dat. Formát je jednoduše čitelný i pro člověka.\cite{lJoeVuQg92zsjaAe}} struktury dat, které systém na vstupu očekává. Z praktického hlediska může jít např. o komunikační bod pro vytvoření specifikace úlohy, na vstupu se očekává JSON struktura popisující úlohu a specifický řetězec, který uživatel obdrží po autentizaci na jiném endpointu.
+REST API je standardizované aplikační rozhraní využívající protokol HTTP. Služba poskytující toto API vystavuje tzv. endpointy (koncový uzel zpřístupněný uživateli) a specifikaci pro práci s nimi. V případě HEAppE Middleware se jedná o url adresy se specifikací JSON\footnote{JSON neboli JavaScript Object Notation je formát využívaný pro výměnu dat. Formát je jednoduše čitelný i pro člověka \cite{lJoeVuQg92zsjaAe}.} struktury dat, které systém na vstupu očekává. Z praktického hlediska může jít např. o komunikační bod pro vytvoření specifikace úlohy, na vstupu se očekává JSON struktura popisující úlohu a specifický řetězec, který uživatel obdrží po autentizaci na jiném endpointu. Na obrázku \ref{fig:swagger} se nacházejí vybrané endpointy REST API middleware z uživateslkého rozhraní Swagger\footnote{https://swagger.io}.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/swagger-ui.pdf}
+	\caption{Vybrané HEAppE Middleware REST API endpointy}
+	\label{fig:swagger}
+\end{figure}
+
+\newpage
 
 \subsection{Protokol SSH a metoda šifrování RSA}
 Jak už bylo popsáno výše, HEAppE Middleware ke komunikaci s HPC clustery využívá protokolu SSH. Koncový uživatel je od této komunikace odstíněn a komunikuje pouze s vrstvou REST API. Při navazování spojení SSH je také odesílán soukromý klíč jednoho z nastavených servisních účtů v HEAppE Middleware, ten je následně porovnán s veřejným klíčem uloženým na HPC clusteru. Tato komunikace uživateli zaručuje bezpečnost pro práci, hlavní výhodou asymetrického RSA šifrování je vysoká složitost pro dešifrování, metoda je založena na prvočíselném rozkladu a je v současné chvíli prakticky neprolomitelná.
@@ -35,7 +36,7 @@ Jak už bylo popsáno výše, HEAppE Middleware ke komunikaci s HPC clustery vyu
 Bezpečnost RSA je postavena na předpokladu, že rozložit velké číslo na součin prvočísel (faktorizace) je velmi obtížná úloha. Z čísla \emph{n = pq} je tedy v rozumném čase prakticky nemožné zjistit činitele \emph{p} a \emph{q}, neboť není znám žádný algoritmus faktorizace, který by pracoval v polynomiálním čase vůči velikosti binárního zápisu čísla n. Naproti tomu násobení dvou velkých čísel je elementární úloha.\cite{GqNaOav5DExhzgW6}
 
 \subsection{Kontejnerizace a Docker}
-Při nasazování HEAppE je využívána technologie Docker. Ta umožňuje nakonfigurovat systém a pak už jen HEAppE Middleware sestavit na libovolném serveru. Docker umožňuje uzavřít a spustit aplikaci v izolovaném prostředí zvaném kontejner, to umožňuje na hostitelském systému spustit několik kontejnerů současně. Kontejnery jsou oddělené a obsahují vše potřebné pro běh aplikace, takže se uživatel nemusí spoléhat na to, co je na hostitelském počítači aktuálně nainstalováno \cite{Ued4tuEOQL0cOIeN}. Docker automaticky stáhne požadované obrazy (image) a spustí aplikaci. 
+Při nasazování HEAppE je využívána technologie Docker. Ta umožňuje nakonfigurovat systém a pak už jen HEAppE Middleware sestavit na libovolném serveru. Docker umožňuje spustit aplikaci v izolovaném prostředí zvaném kontejner, to umožňuje na hostitelském systému spustit několik kontejnerů současně. Kontejnery jsou oddělené a obsahují vše potřebné pro běh aplikace, takže se uživatel nemusí spoléhat na to, co je na hostitelském počítači aktuálně nainstalováno \cite{Ued4tuEOQL0cOIeN}. Docker automaticky stáhne požadované obrazy (image) a spustí aplikaci. 
 
 Výhoda tkví především v přenositelnosti specifikace na jiné servery, kontejner je pak oddělen od ostatních, je možné specificky nastavit jeho komunikační rozhraní dle potřeb uživatele.
 
@@ -49,7 +50,7 @@ Architektura technologie Docker je ilustována na obrázku \ref{fig:docker-archi
 \end{figure}
 
 \subsection{Plánovače PBS a Slurm}
-HEAppE Middleware v době psaní této práce podporuje plánovače PBS a Slurm, tyto plánovače jsou hojně využívány v superpočítačových centrech po celém světě. Jedním z cílů HEAppE Middleware je platformí nezávislost, komunikační rozhraní jednotlivých plánovačů je však rozdílné a musí se k nim přistupovat individuálně. Koncový uživatel je však od této skutečnosti odstíněn a může tedy pracovat stále stejně, bez nutnosti znalosti dalšího systému. Na pozadí to řeší samotný middleware.
+HEAppE Middleware v době psaní této práce podporuje plánovače OpenPBS\footnote{https://www.openpbs.org} a Slurm\footnote{https://slurm.schedmd.com}, tyto plánovače jsou hojně využívány v superpočítačových centrech po celém světě. Jedním z cílů HEAppE Middleware je platformí nezávislost, komunikační rozhraní jednotlivých plánovačů je však rozdílné a musí se k nim přistupovat individuálně. Koncový uživatel je však od této skutečnosti odstíněn a může tedy pracovat stále stejně, bez nutnosti znalosti dalšího systému. Na pozadí to řeší samotný middleware.
 
 
 \section{Abstrakce HPC úlohy}
@@ -70,7 +71,7 @@ HEAppE Middleware mapuje HEAppE uživatelské účty na skutečné clusterové �
 
 HEAppE Middleware tyto clusterové (servisní) účty střídá, aby např. nedošlo k zablokování ze strany superpočítačového centra. Systém bez rotace využívaných servisních účtů by mohl nést znaky DOS/DDOS\footnote{DOS nebo také DDOS je typ útoku na internetové služby nebo stránky, jehož cílem je cílovou službu znefunkčnit a znepřístupnit ostatním uživatelům; může k tomu dojít zahlcením obrovským množstvím požadavků, ve variantně DDOS jde o distribuovaný DOS \cite{UUBpn6UTaV8mOipc}} útoku a účty by mohly být preventivně zablokovány.
 
-Z výše uvedeného textu je zřejmé, že uživatelé spouštějící úlohy prostřednictvím HEAppE Middleware mohou ve skutečnosti využívat jeden servisní clusterový účet. HEAppE řeší přístupy uživatelů k jejich datům na výpočetním clusteru. Každý uživatel HEAppE se pak nemusí verifikovat přímo superpočítačovému centru, k použití stačí mít HAppE uživateslký účet.
+Z výše uvedeného textu je zřejmé, že uživatelé spouštějící úlohy prostřednictvím HEAppE Middleware mohou ve skutečnosti využívat jeden servisní clusterový účet. HEAppE řeší přístupy uživatelů k jejich datům na výpočetním clusteru. Každý uživatel HEAppE se pak nemusí verifikovat přímo superpočítačovému centru, k použití stačí mít HAppE uživatelský účet.
 
 \section{Zajímavé funkcionality HEAppE Middleware}
 \subsection{JobArrays}
@@ -90,19 +91,21 @@ HEAppE ale musí řešit kontrolu těchto závislostí, aby plánovači byly zas
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Figures/Process_deadlock.png}
+	\includegraphics[width=0.5\textwidth]{Figures/Process_deadlock.png}
 	\caption{Cirkulární závislost \cite{OvBwjLleECKerU0E}}
 	\label{fig:cirkularni-zavislost}
 \end{figure}
 
 \newpage
 \subsection{Extrémně dlouhé úlohy}
-Každý uzel superpočítačového clusteru má definován horní interval pro dobu vykonávání uživatelských úloh, v praxi je tento časový parametr nazýván jako Walltime Limit. Systém ukončí každou úlohu, pokud přesáhne časový limit pro vykonávání úlohy. Existují ale uživatelé, jejichž programy vyžadují extrémně dlouhý čas pro dokončení, který překračuje již zmíněný limit na uzlu superpočítačového clusteru. I na tento problém HEAppE Middleware pamatuje. Při definování úlohy je možné nastavit přepínač pro vykonávání v režimu „ExtraLong“. V tomto případě HEAppE logicky rozdělí úlohu na více podúloh se závislostmi na postupném zpracování. Rozdělení pobíhá podle uživatelem uvedeného časového limitu a limitu pro zpracovávání na požadovaném uzlu superpočítače. Výhodou je to, že je uživatel odstíněn od manuálního rozdělování úlohy na podúlohy. Dále je takto upravená specifikace úlohy předána plánovači na superpočítači a ten se již stará o vykonání úlohy.
+Každá výpočetní fronta pro úlohy má definován horní interval pro dobu vykonávání uživatelských úloh, v praxi je tento časový parametr nazýván jako Walltime Limit. Systém ukončí každou úlohu, pokud přesáhne časový limit pro vykonávání úlohy. Existují ale uživatelé, jejichž programy vyžadují extrémně dlouhý čas pro dokončení, který překračuje již zmíněný limit na výpočetní frontě superpočítačového clusteru. I na tento problém HEAppE Middleware pamatuje. Při definování úlohy je možné nastavit přepínač pro vykonávání v režimu „ExtraLong“. V tomto případě HEAppE logicky rozdělí úlohu na více podúloh se závislostmi na postupném zpracování. Rozdělení pobíhá podle uživatelem uvedeného časového limitu a limitu pro zpracovávání na požadované výpočetní frontě superpočítače. Výhodou je to, že je uživatel odstíněn od manuálního rozdělování úlohy na podúlohy. Dále je takto upravená specifikace úlohy předána plánovači na superpočítači a ten se již stará o vykonání úlohy. 
+
+Tyto úlohy však musí podporovat „checkpointing“, aby bylo možné spouštět její části. „Checkpointing“ umožňuje ukládat stav úlohy, tak aby bylo možné výpočet po přerušení opět obnovit, aniž by se změnilo chování výpočtu. Zachovaný stav se nazývá kontrolní bod a pokračování se obvykle označuje jako restart \cite{Padua2011}.
 
 \hfill \break
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{Figures/job-decompose.png}
+	\includegraphics[width=0.9\textwidth]{Figures/ExtraLong.pdf}
 	\caption{Rozdělení extrémně dlouhé úlohy }
 	\label{fig:rozdeleni-extra-long}
 \end{figure}

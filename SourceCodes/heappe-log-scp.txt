@@ -1,0 +1,7 @@
+INFO  2022-03-07 13:20:08 HEAppE.HpcConnectionFramework.SystemCommands.LinuxCommands - Create job directory result: "Created directory /home/heappeclient/heappetests/21. Created directory /home/heappeclient/heappetests/21/24." 
+INFO  2022-03-07 13:20:08 HEAppE.BusinessLogicTier.Logic.FileTransfer.FileTransferLogic - Getting file transfer method for submitted job info ID 21 with user testuser 
+INFO  2022-03-07 13:20:09 HEAppE.BusinessLogicTier.Logic.JobManagement.JobManagementLogic - User testuser is submitting the job with info Id 21 
+INFO  2022-03-07 13:20:09 HEAppE.HpcConnectionFramework.SchedulerAdapters.Generic.LinuxLocal.LinuxLocalSchedulerAdapter - Run prepare-job result:  
+INFO  2022-03-07 13:20:09 HEAppE.HpcConnectionFramework.SystemCommands.LinuxCommands - Allow file transfer result: "Public key inserted." 
+INFO  2022-03-07 13:20:09 HEAppE.BusinessLogicTier.Logic.FileTransfer.FileTransferLogic - Removing file transfer method for submitted job info ID 21 with user testuser 
+INFO  2022-03-07 13:20:09 HEAppE.HpcConnectionFramework.SystemCommands.LinuxCommands - Remove permission for direct file transfer result: "Public key removed for user heappeclient." 

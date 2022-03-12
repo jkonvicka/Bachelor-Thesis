@@ -1,0 +1,11 @@
+JobSpecification created
+JobSpecificationExt(name=ASBTestJob; project=ExpTests; waitingLimit=0; walltimeLimit=; notificationEmail=; phoneNumber=; notifyOnAbort=; notifyOnFinish=; notifyOnStart=; clusterId=3; fileTransferMethodId=3; environmentVariables=HEAppE.ExtModels.JobManagement.Models.EnvironmentVariableExt[]; tasks=HEAppE.ExtModels.JobManagement.Models.TaskSpecificationExt[])
+Job 21 created
+SubmittedJobInfoExt(id=21; name=ASBTestJob; state=Configuring; project=ExpTests; creationTime=07.03.2022 12:20:08; submitTime=; startTime=; endTime=; totalAllocatedTime=; tasks=HEAppE.ExtModels.JobManagement.Models.SubmittedTaskInfoExt[])
+All files uploaded
+Job submitted
+Uploading file: a.txt
+File uploaded: a.txt
+Job 21 state: Running
+Canceling job 21 ...
+Job 21 was canceled
