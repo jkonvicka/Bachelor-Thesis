@@ -11,6 +11,8 @@ Abstraktně si můžeme HEAppE Middleware představit jako spolehlivého prostř
 
 Prakticky se jedná o službu, prostřednictvím které může koncový uživatel komunikovat s HPC clusterem přes standardizované aplikační rozhraní zvané jako REST API, stojící na HTTP komunikaci.
 
+V době psaní této práce je HEAppE Middleware využíván ve 4 superpočítačových/datových centrech a je navázán na 7 projektů, které middleware využívají ke správě HPC úloh.
+
 
 \section{Technické zázemí HEAppE Middleware}
 Velký důraz je v tomto projektu kladen na multiplatformní využití a nezávislost použitého hardwaru. Tento aplikační framework je postaven na technologii .NET Core, poskytuje REST API a při nasazování je využívána kontejnerizační technologie Docker. Komunikace s plánovačem výpočetního uzlu probíhá prostřednictvím protokolu SSH, uživatel je autentizován jedním z uložených servisních účtů metodou RSA.
@@ -36,7 +38,7 @@ REST API je standardizované aplikační rozhraní využívající protokol HTTP
 \subsection{Protokol SSH a metoda šifrování RSA}
 Jak už bylo popsáno výše, HEAppE Middleware ke komunikaci s HPC clustery využívá protokolu SSH. Koncový uživatel je od této komunikace odstíněn a komunikuje pouze s vrstvou REST API. Při navazování spojení SSH je také odesílán soukromý klíč jednoho z nastavených servisních účtů v HEAppE Middleware, ten je následně porovnán s veřejným klíčem uloženým na HPC clusteru. Tato komunikace uživateli zaručuje bezpečnost pro práci, hlavní výhodou asymetrického RSA šifrování je vysoká složitost pro dešifrování, metoda je založena na prvočíselném rozkladu a je v současné chvíli prakticky neprolomitelná.
 
-Bezpečnost RSA je postavena na předpokladu, že rozložit velké číslo na součin prvočísel (faktorizace) je velmi obtížná úloha. Z čísla \emph{n = pq} je tedy v rozumném čase prakticky nemožné zjistit činitele \emph{p} a \emph{q}, neboť není znám žádný algoritmus faktorizace, který by pracoval v polynomiálním čase vůči velikosti binárního zápisu čísla n. Naproti tomu násobení dvou velkých čísel je elementární úloha.\cite{GqNaOav5DExhzgW6}
+Bezpečnost RSA je postavena na předpokladu, že rozložit velké číslo na součin prvočísel (faktorizace) je velmi obtížná úloha. Z čísla \emph{n = pq} je tedy v rozumném čase prakticky nemožné zjistit činitele \emph{p} a \emph{q}, neboť není znám žádný algoritmus faktorizace, který by pracoval v polynomiálním čase vůči velikosti binárního zápisu čísla n. Naproti tomu násobení dvou velkých čísel je elementární úloha \cite{GqNaOav5DExhzgW6}.
 
 \subsection{Kontejnerizace a Docker}
 Při nasazování HEAppE je využívána technologie Docker. Ta umožňuje nakonfigurovat systém a pak už jen HEAppE Middleware sestavit na libovolném serveru. Docker umožňuje spustit aplikaci v izolovaném prostředí zvaném kontejner, to umožňuje na hostitelském systému spustit několik kontejnerů současně. Kontejnery jsou oddělené a obsahují vše potřebné pro běh aplikace, takže se uživatel nemusí spoléhat na to, co je na hostitelském počítači aktuálně nainstalováno \cite{Ued4tuEOQL0cOIeN}. Docker automaticky stáhne požadované obrazy (image) a spustí aplikaci. 

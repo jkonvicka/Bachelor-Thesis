@@ -48,7 +48,7 @@ HEAppE Middleware je navržen tak, že se na obou stranách (HEAppE i HPC) uchov
 
 Obdobně je přistupováno k datům i v případě simulace HPC na lokálním virtuálním stroji. S ohledem na výkon a režii nejsou data na straně virtuálního HPC ukládána v databázi. V adresáři dané úlohy je sada souborů, obsahující data (stav, parametry) úlohy. Tato data se nachází v předem definované JSON struktuře, jsou ukládána a aktualizována při běhu úlohy. Po vyžádání jsou data zaslána v JSON struktuře textově zpět na HEAppE.
 
-Pro práci s JSON strukturami slouží ve virtuálním stroji parser\footnote{Parser je program či jeho část provádějící syntaktickou analýzu textu. Analýza textu je proces, při němž je zpracováván text za pomoci definovaných pravidel daného jazyka.\cite{uEN4MdNhBpkZmkHF}} jq\cite{qibOqajDMnKYNjXq}. Jedná se o program, který je schopen spravovat JSOn struktury, umožňuje získat data nebo je aktualizovat či přidat a odebrat. Tento program je instalován při sestavování Docker kontejneru, žádost o instalaci se nachází v konfiguraci dockerfile.
+Pro práci s JSON strukturami slouží ve virtuálním stroji parser\footnote{Parser je program či jeho část provádějící syntaktickou analýzu textu. Analýza textu je proces, při němž je zpracováván text za pomoci definovaných pravidel daného jazyka \cite{uEN4MdNhBpkZmkHF}.} jq \cite{qibOqajDMnKYNjXq}. Jedná se o program, který je schopen spravovat JSOn struktury, umožňuje získat data nebo je aktualizovat či přidat a odebrat. Tento program je instalován při sestavování Docker kontejneru, žádost o instalaci se nachází v konfiguraci dockerfile.
 
 \hfill \break
 \begin{lstlisting}[caption={Příklad JSON struktury}]
@@ -67,6 +67,8 @@ Samotná implementace výše popsaného řešení se skládá z adaptéru, ve kt
 
 DTO objekty s napamovanými daty jsou pak v nižších vrstvách využity pro aktualizaci stavu a časů jednotlivých spouštěných úloh.
 
+Funkcionalita je součástí HEAppE Middleware, projekt je dostupný na oficiálním veřejném GIT repositáři na adrese \emph{\href{https://github.com/It4innovations/HEAppE}{https://github.com/It4innovations/HEAppE}}.
+
 \section{Implementace na straně virtuálního stroje}
 Konfigurace již zmiňovaného virtuálního stroje s OS Linux je sepsána jako sekvence kroků pro spouštění v prostředí Docker. Součástí konfigurace je stažení obrazu OS Linux (Minideb) vytvoření uživatele pro práci, nastavení přístupových práv, nastavení domovského adresáře, instalace openssh serveru pro komunikaci nebo například instalace programu jq pro jednodušší práci s JSON strukturami.
 
@@ -75,6 +77,8 @@ Z důvodu možnosti jednoduché a rychlé úpravy byly pro řízení běhu simul
 Mezi stávající využívané skripty patří například skript vytvářející pracovní adresář pro dané úlohy, přidávání či odebírání SSH klíčů nebo skript pro přesun dat. Tyto stávající skripty jsou využívány i na skutečných výpočetních clusterech.
 
 Parametry jednotlivých skriptů, které jsou zasílány z HEAppE jsou enkódovány do formátu Base64, aby nedocházelo k nechtěným problémům v případě zasílaných nepovolených znaků. Na straně virtuálního i skutečného výpočetního clusteru jsou tyto parametry dekódovány a užívány v textové podobě dle zvolené logiky.
+
+Konfigurace popisovaného virtuálního stroje se všemi řídícími skripty a soubory je dostupná z veřejného GIT repositáře na adrese \emph{\href{https://github.com/It4innovations/HEAppE-scripts}{https://github.com/It4innovations/HEAppE-scripts}}.
 
 
 
